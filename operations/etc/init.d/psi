@@ -1,0 +1,173 @@
+#! /bin/sh
+#
+### BEGIN INIT INFO
+# Provides:          procServ plus ioc
+# Should-Start:      console-screen
+# Required-Start:    $all
+# Required-Stop:     $all
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: procServ start of ioc
+# Description:       init script to start procServ and thus some ioc
+### END INIT INFO
+#
+# Author:       Stefani Banerian <banerian@u.washington.edu>
+#
+# modified to use procServ rather than screen
+#          2008 08 11
+# very greatly modified from a script by
+# Author: <Ralph.Lange@bessy.de>
+# for which the history is:
+#          2006-03-12: Adapted from D. Herrendörfer's ca-gateway script
+#          2006-04-04: Bugfix in config file parser
+# Retrieved from http://www.aps.anl.gov/epics/wiki/index.php/How_to_Set_Up_a_Soft_IOC_Framework_on_Linux
+
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/cnts/epics/operations/sbin:usr/local/cnts/epics/operations/bin
+PID=""
+
+# source EPICS
+if [ -f /usr/local/cnts/epics/base/startup/Site.bashrc ]; then
+    . /usr/local/cnts/epics/base/startup/Site.bashrc
+fi
+
+#echo $PATH
+#echo bork
+#which procServ
+#echo ending
+#EXEC=/usr/local/cnts/epics/operations/bin/procServ
+EXEC=/usr/bin/procServ
+#echo $EXEC
+#if [ ! -x $EXEC ];then echo not exe ; else echo exe; fi
+#exit 1
+
+# cnts Defaults
+IOC=op
+OPS_BASE_PATH=/usr/local/cnts/epics/operations
+STARTUP=st.cmd
+IOCUSER=iocadm
+CA_PORT=5064
+PROCSERV_LOCAL_PORT=5555
+PROCSERV_REMOTE_PORT=6666
+#DEB="debug"
+DEB=""
+CONFIG=${OPS_BASE_PATH}/etc/ioc.conf
+
+if [ -f $CONFIG ];then
+	. $CONFIG
+fi
+
+
+#IOC_BASE_PATH=/usr/local/cnts/epics/operations/${IOC}IOC
+#IOC_BASE_PATH=${OPS_BASE_PATH}/${IOC}IOC
+IOC_BASE_PATH=${OPS_BASE_PATH}/opIOC
+#IOC_BOOT_PATH=iocBoot/ioc$IOC
+IOC_BOOT_PATH=${IOC_BASE_PATH}/iocBoot/ioc$IOC
+PIDFILE=${OPS_BASE_PATH}/var/$IOC.pid
+
+# create unique logfile name
+DATESTR=` date +'%Y.%b.%d.%H.%M' `
+#LOGFILE=$EPICS/operations/var/$IOC.$DATESTR.log
+LOGFILE=${OPS_BASE_PATH}/var/$IOC.$DATESTR.log
+
+#######################################################
+# test definitions
+[ ! -d ${OPS_BASE_PATH}/var ] && echo "$DEB var"  && exit 1
+[ ! -d ${OPS_BASE_PATH}/tmp ] && echo "$DEB tmp" && exit 1
+
+[ -z $IOC ] && echo "$DEB $IOC zero" &&  exit 1
+[ ! -x $IOC_BASE_PATH/bin/$EPICS_HOST_ARCH/$IOC ] && echo "$DEB IOC $IOC does not exist or not executable" && exit 1
+[ ! -x $IOC_BOOT_PATH/$STARTUP ]   && echo "$DEB startup does not exist or not executable" && exit 1
+
+#######################################################
+# Functions that start the daemon
+#######################################################
+do_start()
+{
+	echo -n "Starting soft IOC  $IOC "
+	cd $IOC_BOOT_PATH
+	#procServ -l $PROCSERV_REMOTE_PORT -L $LOGFILE -p $PIDFILE  $PROCSERV_LOCAL_PORT ./$STARTUP
+	$EXEC -l $PROCSERV_REMOTE_PORT -L $LOGFILE -p $PIDFILE  $PROCSERV_LOCAL_PORT ./$STARTUP
+
+	if [ "$?" = 1 ]; then
+		echo -n "<was running> "
+	fi
+	echo "... done."
+}
+
+do_quiet_start()
+{
+	cd $IOC_BOOT_PATH
+	#procServ -q -l $PROCSERV_REMOTE_PORT -L $LOGFILE -p $PIDFILE  $PROCSERV_LOCAL_PORT ./$STARTUP
+	$EXEC -q -l $PROCSERV_REMOTE_PORT -L $LOGFILE -p $PIDFILE  $PROCSERV_LOCAL_PORT ./$STARTUP
+}
+
+#######################################################
+# Functions that stop the daemon
+#######################################################
+do_stop()
+{
+	echo -n "Stopping soft IOC $IOC "
+	kill -9 ` cat $PIDFILE ` && rm $PIDFILE
+	echo "... done."
+}
+
+do_quiet_stop()
+{
+	kill -9 ` cat $PIDFILE ` && rm $PIDFILE
+}
+
+#######################################################
+# provides a status output on the IOC
+#######################################################
+do_status()
+{
+echo $PIDFILE
+cat $PIDFILE
+	[ ! -f $PIDFILE ] && echo "PIDFILE NOT FOUND " && exit 1
+	PIDE=` cat $PIDFILE `
+	RET=` ps -p $PIDE `
+	if [ $? = 1 ]; then
+		echo maybe zombie process or dangling pid file
+	else
+		echo $IOC process running under procServ process $PIDE
+		#echo $RET
+	fi
+}
+
+#######################################################
+
+case "$1" in
+  start)
+	do_start 
+	;;
+  quietstart)
+	do_quiet_start 
+	;;
+  stop)
+	do_stop
+	;;
+  quietstop)
+	do_quiet_stop
+	;;
+  status)
+	do_status
+	;;
+  restart|force-reload)
+	do_stop 
+	sleep 1
+	do_start 
+	;;
+  quietrestart)
+	if [ -f $PIDFILE ]; then
+		do_quiet_stop
+	fi
+	sleep 1
+	do_quiet_start 
+	;;
+  *)
+	echo "Usage: $0 {start|stop|status|restart|force-reload|quietrestart} " >&2
+	exit 3
+	;;
+esac
+

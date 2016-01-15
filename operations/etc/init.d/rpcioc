@@ -1,0 +1,52 @@
+#!/bin/sh
+#
+### BEGIN INIT INFO
+# Provides:          rpc server
+# Should-Start:      console-screen
+# Required-Start:    $all
+# Required-Stop:     $all
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: rpc server
+# Description:       init script for rpc server which allows remote ioc reboot
+### END INIT INFO
+#
+# Author:       Stefani Banerian <banerian@u.washington.edu>
+#
+export BINDIR=/usr/local/cnts/epics/operations/sbin
+DAEMON=rpcServ.pl
+
+test ! -x $BINDIR/$DAEMON  && exit 1
+
+
+do_start(){
+
+$BINDIR/$DAEMON 2>&1 > /dev/null & 
+
+}
+
+do_stop(){
+
+killall $DAEMON
+
+}
+
+case "$1" in
+  start)
+        echo -n "Starting rpc service"
+	do_start
+        echo "."
+        ;;
+  stop)
+        echo -n "Stopping rpc service"
+	do_stop
+        echo "."
+        ;;
+
+  *)
+        echo "Usage: $0 {start|stop|reload|force-reload|restart}"
+        exit 1
+esac
+
+exit 0
+

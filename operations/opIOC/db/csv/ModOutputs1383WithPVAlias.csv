@@ -1,0 +1,1371 @@
+"Translaton between Mod1 Outputs and PV names generates read1383coils.substitutions",,,,,,
+"IOC Offset",".DESC field","IOC PV Name","Meaning of 1 State","Meaning of 0 State","Modicon Output #",Alias
+,,,,,,
+0,xx,CoilBlank1401,One,Zero,1401,MOD1:Coil1401:Read
+1,xx,CoilBlank1402,One,Zero,1402,MOD1:Coil1402:Read
+2,xx,CoilBlank1403,One,Zero,1403,MOD1:Coil1403:Read
+3,xx,CoilBlank1404,One,Zero,1404,MOD1:Coil1404:Read
+4,xx,CoilBlank1405,One,Zero,1405,MOD1:Coil1405:Read
+5,xx,CoilBlank1406,One,Zero,1406,MOD1:Coil1406:Read
+6,xx,CoilBlank1407,One,Zero,1407,MOD1:Coil1407:Read
+7,xx,CoilBlank1408,One,Zero,1408,MOD1:Coil1408:Read
+8,"PGSWM Mechanical Pump On Command",PGSWM:MechPumpOn:CMD,One,Zero,1409,MOD1:Coil1409:Read
+9,"PGSWM Roughing Valve Open Command",PGSWM:RoughingValveOpen:CMD,One,Zero,1410,MOD1:Coil1410:Read
+10,"PGSWM Backing Valve Open Command",PGSWM:BackingValveOpen:CMD,One,Zero,1411,MOD1:Coil1411:Read
+11,"PGSWM High Vacuum Valve Open Command",PGSWM:HiVacValveOpen:CMD,One,Zero,1412,MOD1:Coil1412:Read
+12,xx,CoilBlank1413,One,Zero,1413,MOD1:Coil1413:Read
+13,"FC1 Open Command",FC1:Open:CMD,One,Zero,1414,MOD1:Coil1414:Read
+14,"BeamPlug A Open Command",BeamPlugA:Open:CMD,One,Zero,1415,MOD1:Coil1415:Read
+15,"BeamPlug B Open Command",BeamPlugB:Open:CMD,One,Zero,1416,MOD1:Coil1416:Read
+16,"PGA1 Mechanical Pump On Command",PGA1:MechPumpOn:CMD,One,Zero,1417,MOD1:Coil1417:Read
+17,"PGA1 Roughing Valve Open Command",PGA1:RoughingValveOpen:CMD,One,Zero,1418,MOD1:Coil1418:Read
+18,"PGA1 Backing Valve Open Command",PGA1:BackingValveOpen:CMD,One,Zero,1419,MOD1:Coil1419:Read
+19,"PGA1 High Vacuum Valve Open Command",PGA1:HiVacValveOpen:CMD,One,Zero,1420,MOD1:Coil1420:Read
+20,xx,CoilBlank1421,One,Zero,1421,MOD1:Coil1421:Read
+21,"FC2A Close Command",FC2A:Close:CMD,One,Zero,1422,MOD1:Coil1422:Read
+22,"BLVA1 Open Command",BLVA1:Open:CMD,One,Zero,1423,MOD1:Coil1423:Read
+23,"BLVA2 Open Command",BLVA2:Open:CMD,One,Zero,1424,MOD1:Coil1424:Read
+24,"PGB1 Mechanical Pump On Command",PGB1:MechPumpOn:CMD,One,Zero,1425,MOD1:Coil1425:Read
+25,"PGB1 Roughing Valve Open Command",PGB1:RoughingValveOpen:CMD,One,Zero,1426,MOD1:Coil1426:Read
+26,"PGB1 Backing Valve Open Command",PGB1:BackingValveOpen:CMD,One,Zero,1427,MOD1:Coil1427:Read
+27,"PGB1 High Vacuum Valve Open Command",PGB1:HiVacValveOpen:CMD,One,Zero,1428,MOD1:Coil1428:Read
+28,xx,CoilBlank1429,One,Zero,1429,MOD1:Coil1429:Read
+29,"FC2B Close Command",FC2B:Close:CMD,One,Zero,1430,MOD1:Coil1430:Read
+30,"BLVB1 Open Command",BLVB1:Open:CMD,One,Zero,1431,MOD1:Coil1431:Read
+31,"BLVB2 Open Command",BLVB2:Open:CMD,One,Zero,1432,MOD1:Coil1432:Read
+32,"PGC1 Mechanical Pump On Command",PGC1:MechPumpOn:CMD,One,Zero,1433,MOD1:Coil1433:Read
+33,"PGC1 Roughing Valve Open Command",PGC1:RoughingValveOpen:CMD,One,Zero,1434,MOD1:Coil1434:Read
+34,"PGC1 Backing Valve Open Command",PGC1:BackingValveOpen:CMD,One,Zero,1435,MOD1:Coil1435:Read
+35,"PGC1 High Vacuum Valve Open Command",PGC1:HiVacValveOpen:CMD,One,Zero,1436,MOD1:Coil1436:Read
+36,"PGC1 Diffusion Pump On Command",PGC1:DiffPumpOn:CMD,One,Zero,1437,MOD1:Coil1437:Read
+37,"FC2C Open Command",FC2C:Open:CMD,One,Zero,1438,MOD1:Coil1438:Read
+38,"BLVC1 Open Command",BLVC1:Open:CMD,One,Zero,1439,MOD1:Coil1439:Read
+39,xx,CoilBlank1440,One,Zero,1440,MOD1:Coil1440:Read
+40,"PGZ1 Mechanical Pump On Command",PGZ1:MechPumpOn:CMD,One,Zero,1441,MOD1:Coil1441:Read
+41,"PGZ1 Roughing Valve Open Command",PGZ1:RoughingValveOpen:CMD,One,Zero,1442,MOD1:Coil1442:Read
+42,"PGZ1 Backing Valve Open Command",PGZ1:BackingValveOpen:CMD,One,Zero,1443,MOD1:Coil1443:Read
+43,"PGZ1 High Vacuum Valve Open Command",PGZ1:HiVacValveOpen:CMD,One,Zero,1444,MOD1:Coil1444:Read
+44,"PGTARZ Scroll Pump On Command",PGTARZ:ScrollPumpOn:CMD,One,Zero,1445,MOD1:Coil1445:Read
+45,"Open Faraday Cup 2Z Command",FC2Z:Open:CMD,One,Zero,1446,MOD1:Coil1446:Read
+46,"BLVZ1 Open Command",BLVZ1:Open:CMD,One,Zero,1447,MOD1:Coil1447:Read
+47,"BLVZ2 Open Command",BLVZ2:Open:CMD,One,Zero,1448,MOD1:Coil1448:Read
+48,"PGTARZ Roughing Valve Open Command",PGTARZ:RoughingValveOpen:CMD,One,Zero,1449,MOD1:Coil1449:Read
+49,"PGTARZ Water Valve Open Command",PGTARZ:WaterValveOpen:CMD,One,Zero,1450,MOD1:Coil1450:Read
+50,"PGTARZ Air Valve Open Command",PGTARZ:AirValveOpen:CMD,One,Zero,1451,MOD1:Coil1451:Read
+51,"PGTARZ Vent Valve Open Command",PGTARZ:VentValveOpen:CMD,One,Zero,1452,MOD1:Coil1452:Read
+52,"PGTARZ Jaw Open Command",PGTARZ:JawOpen:CMD,One,Zero,1453,MOD1:Coil1453:Read
+53,"BLZ Water Valve Open Command",BLZ:WaterValveOpen:CMD,One,Zero,1454,MOD1:Coil1454:Read
+54,xx,CoilBlank1455,One,Zero,1455,MOD1:Coil1455:Read
+55,xx,CoilBlank1456,One,Zero,1456,MOD1:Coil1456:Read
+56,"BLVZ2 Open Lamp -tgt control box-",BLVZ2:Open:Lamp,One,Zero,1457,MOD1:Coil1457:Read
+57,"BLVZ2 Closed Lamp -tgt control box-",BLVZ2:Closed:Lamp,One,Zero,1458,MOD1:Coil1458:Read
+58,"PGTARZ Flow OK Lamp -tgt panel-",PGTARZ:FlowOK:Lamp,One,Zero,1459,MOD1:Coil1459:Read
+59,"PGTARZ Water Off Lamp -panel-",PGTARZ:WaterOff:Lamp,One,Zero,1460,MOD1:Coil1460:Read
+60,"PGTARZ Jaw Open Lamp -tgt control box-",PGTARZ:JawOpen:Lamp,One,Zero,1461,MOD1:Coil1461:Read
+61,"PGTARZ Jaw Closed Lamp -tgt control box-",PGTARZ:JawClose:Lamp,One,Zero,1462,MOD1:Coil1462:Read
+62,"PGTARZ Plate in Position Lamp",PGTARZ:PlateInPosition:Lamp,One,Zero,1463,MOD1:Coil1463:Read
+63,"PGTARZ Vent Valve Open Lamp",PGTARZ:VentValveOpen:Lamp,One,Zero,1464,MOD1:Coil1464:Read
+64,"PGTARZ Blow Down Air On LED",PGTARZ:BlowDownAirOn:LED,One,Zero,1465,MOD1:Coil1465:Read
+65,"PGTARZ Vent Valve Closed LED",PGTARZ:VentValveClosed:LED,One,Zero,1466,MOD1:Coil1466:Read
+66,"PGTARZ Pump On Lamp",PGTARZ:PumpOn:Lamp,One,Zero,1467,MOD1:Coil1467:Read
+67,"PGTARZ Pump Off Lamp",PGTARZ:PumpOff:Lamp,One,Zero,1468,MOD1:Coil1468:Read
+68,"PGTARZ Pump Valve Open LED",PGTARZ:PumpValveOpen:LED,One,Zero,1469,MOD1:Coil1469:Read
+69,"PGTARZ Pump Valve Closed LED",PGTARZ:PumpValveClosed:LED,One,Zero,1470,MOD1:Coil1470:Read
+70,"PGTARZ Vacuum OK LED",PGTARZ:VacuumOK:LED,One,Zero,1471,MOD1:Coil1471:Read
+71,"BLZ Vacuum OK LED",BLZ:VacuumOK:LED,One,Zero,1472,MOD1:Coil1472:Read
+72,xx,CoilBlank1473,One,Zero,1473,MOD1:Coil1473:Read
+73,xx,CoilBlank1474,One,Zero,1474,MOD1:Coil1474:Read
+74,xx,CoilBlank1475,One,Zero,1475,MOD1:Coil1475:Read
+75,xx,CoilBlank1476,One,Zero,1476,MOD1:Coil1476:Read
+76,xx,CoilBlank1477,One,Zero,1477,MOD1:Coil1477:Read
+77,xx,CoilBlank1478,One,Zero,1478,MOD1:Coil1478:Read
+78,xx,CoilBlank1479,One,Zero,1479,MOD1:Coil1479:Read
+79,xx,CoilBlank1480,One,Zero,1480,MOD1:Coil1480:Read
+80,xx,CoilBlank1481,One,Zero,1481,MOD1:Coil1481:Read
+81,xx,CoilBlank1482,One,Zero,1482,MOD1:Coil1482:Read
+82,xx,CoilBlank1483,One,Zero,1483,MOD1:Coil1483:Read
+83,xx,CoilBlank1484,One,Zero,1484,MOD1:Coil1484:Read
+84,xx,CoilBlank1485,One,Zero,1485,MOD1:Coil1485:Read
+85,xx,CoilBlank1486,One,Zero,1486,MOD1:Coil1486:Read
+86,xx,CoilBlank1487,One,Zero,1487,MOD1:Coil1487:Read
+87,xx,CoilBlank1488,One,Zero,1488,MOD1:Coil1488:Read
+88,"PG1 Mechanical Pump On Command",PG1:MechPumpOn:CMD,One,Zero,1489,MOD1:Coil1489:Read
+89,"PG1 Roughing Valve Open Command",PG1:RoughingValveOpen:CMD,One,Zero,1490,MOD1:Coil1490:Read
+90,"PG1 Backing Valve Open Command",PG1:BackingValveOpen:CMD,One,Zero,1491,MOD1:Coil1491:Read
+91,"PG1 High Vac Valve Open Command",PG1:HiVacValveOpen:CMD,One,Zero,1492,MOD1:Coil1492:Read
+92,"PG1 Diffusion Pump On Command",PG1:DiffPumpOn:CMD,One,Zero,1493,MOD1:Coil1493:Read
+93,xx,CoilBlank1494,One,Zero,1494,MOD1:Coil1494:Read
+94,"Cyclotron Vent Valve Open Command",CYC:VentValveOpen:CMD,One,Zero,1495,MOD1:Coil1495:Read
+95,xx,CoilBlank1496,One,Zero,1496,MOD1:Coil1496:Read
+96,"PG2 Mechanical Pump On Command",PG2:MechPumpOn:CMD,One,Zero,1497,MOD1:Coil1497:Read
+97,xx,CoilBlank1498,One,Zero,1498,MOD1:Coil1498:Read
+98,"PG2 Open Backing Valve Command",PG2:BackingValveOpen:CMD,One,Zero,1499,MOD1:Coil1499:Read
+99,"PG2 High Vacuum Valve Open Command",PG2:HiVacValveOpen:CMD,One,Zero,1500,MOD1:Coil1500:Read
+100,"PG2 Diffusion Pump On Command",PG2:DiffPumpOn:CMD,One,Zero,1501,MOD1:Coil1501:Read
+101,xx,CoilBlank1502,One,Zero,1502,MOD1:Coil1502:Read
+102,"BEV Open Command",BEV:Open:CMD,One,Zero,1503,MOD1:Coil1503:Read
+103,xx,CoilBlank1504,One,Zero,1504,MOD1:Coil1504:Read
+104,"Service Pump On Command",Source:Cath:ServicePumpOn:CMD,One,Zero,1505,MOD1:Coil1505:Read
+105,xx,CoilBlank1506,One,Zero,1506,MOD1:Coil1506:Read
+106,xx,CoilBlank1507,One,Zero,1507,MOD1:Coil1507:Read
+107,xx,CoilBlank1508,One,Zero,1508,MOD1:Coil1508:Read
+108,"Service Pump Manifold Valve Open Command",Source:Cath:ServicePumpManifoldValveOpen:CMD,One,Zero,1509,MOD1:Coil1509:Read
+109,"Hydrogen Valve Open Command",Source:SourceGas:HydrogenValveOpen:CMD,One,Zero,1510,MOD1:Coil1510:Read
+110,"Deuterium Valve Open Command",Source:SourceGas:DeuteriumValveOpen:CMD,One,Zero,1511,MOD1:Coil1511:Read
+111,"He3 Valve Open Command",Source:SourceGas:3HEValveOpen:CMD,One,Zero,1512,MOD1:Coil1512:Read
+112,"He4 Valve Open Command",Source:SourceGas:4HEValveOpen:CMD,One,Zero,1513,MOD1:Coil1513:Read
+113,"Air Valve Open Command",Source:SourceGas:AirValveOpen:CMD,One,Zero,1514,MOD1:Coil1514:Read
+114,"N=1 Open Command",Source:Arc:SourceChimney:N1:CMD,One,Zero,1515,MOD1:Coil1515:Read
+115,"N=2 Open Command",Source:Arc:SourceChimney:N2:CMD,One,Zero,1516,MOD1:Coil1516:Read
+116,xx,CoilBlank1517,One,Zero,1517,MOD1:Coil1517:Read
+117,xx,CoilBlank1518,One,Zero,1518,MOD1:Coil1518:Read
+118,xx,CoilBlank1519,One,Zero,1519,MOD1:Coil1519:Read
+119,xx,CoilBlank1520,One,Zero,1520,MOD1:Coil1520:Read
+120,xx,CoilBlank1521,One,Zero,1521,MOD1:Coil1521:Read
+121,xx,CoilBlank1522,One,Zero,1522,MOD1:Coil1522:Read
+122,xx,CoilBlank1523,One,Zero,1523,MOD1:Coil1523:Read
+123,xx,CoilBlank1524,One,Zero,1524,MOD1:Coil1524:Read
+124,xx,CoilBlank1525,One,Zero,1525,MOD1:Coil1525:Read
+125,xx,CoilBlank1526,One,Zero,1526,MOD1:Coil1526:Read
+126,xx,CoilBlank1527,One,Zero,1527,MOD1:Coil1527:Read
+127,xx,CoilBlank1528,One,Zero,1528,MOD1:Coil1528:Read
+128,xx,CoilBlank1529,One,Zero,1529,MOD1:Coil1529:Read
+129,xx,CoilBlank1530,One,Zero,1530,MOD1:Coil1530:Read
+130,xx,CoilBlank1531,One,Zero,1531,MOD1:Coil1531:Read
+131,xx,CoilBlank1532,One,Zero,1532,MOD1:Coil1532:Read
+132,xx,CoilBlank1533,One,Zero,1533,MOD1:Coil1533:Read
+133,xx,CoilBlank1534,One,Zero,1534,MOD1:Coil1534:Read
+134,xx,CoilBlank1535,One,Zero,1535,MOD1:Coil1535:Read
+135,xx,CoilBlank1536,One,Zero,1536,MOD1:Coil1536:Read
+136,xx,CoilBlank1537,One,Zero,1537,MOD1:Coil1537:Read
+137,xx,CoilBlank1538,One,Zero,1538,MOD1:Coil1538:Read
+138,xx,CoilBlank1539,One,Zero,1539,MOD1:Coil1539:Read
+139,xx,CoilBlank1540,One,Zero,1540,MOD1:Coil1540:Read
+140,xx,CoilBlank1541,One,Zero,1541,MOD1:Coil1541:Read
+141,xx,CoilBlank1542,One,Zero,1542,MOD1:Coil1542:Read
+142,xx,CoilBlank1543,One,Zero,1543,MOD1:Coil1543:Read
+143,xx,CoilBlank1544,One,Zero,1544,MOD1:Coil1544:Read
+144,xx,CoilBlank1545,One,Zero,1545,MOD1:Coil1545:Read
+145,xx,CoilBlank1546,One,Zero,1546,MOD1:Coil1546:Read
+146,xx,CoilBlank1547,One,Zero,1547,MOD1:Coil1547:Read
+147,xx,CoilBlank1548,One,Zero,1548,MOD1:Coil1548:Read
+148,xx,CoilBlank1549,One,Zero,1549,MOD1:Coil1549:Read
+149,xx,CoilBlank1550,One,Zero,1550,MOD1:Coil1550:Read
+150,xx,CoilBlank1551,One,Zero,1551,MOD1:Coil1551:Read
+151,xx,CoilBlank1552,One,Zero,1552,MOD1:Coil1552:Read
+152,"PGA2 Mechanical Pump On Command",PGA2:MechPumpOn:CMD,One,Zero,1553,MOD1:Coil1553:Read
+153,"PGA2 Roughing Valve Open Command",PGA2:RoughingValveOpen:CMD,One,Zero,1554,MOD1:Coil1554:Read
+154,"PGA2 Backing Valve Open Command",PGA2:BackingValveOpen:CMD,One,Zero,1555,MOD1:Coil1555:Read
+155,"PGA2 High Vacuum Valve Open Command",PGA2:HiVacValveOpen:CMD,One,Zero,1556,MOD1:Coil1556:Read
+156,xx,CoilBlank1557,One,Zero,1557,MOD1:Coil1557:Read
+157,"FC3A Close Command",FC3A:Close:CMD,One,Zero,1558,MOD1:Coil1558:Read
+158,xx,CoilBlank1559,One,Zero,1559,MOD1:Coil1559:Read
+159,xx,CoilBlank1560,One,Zero,1560,MOD1:Coil1560:Read
+160,"PGB2 Mechanical Pump On Command",PGB2:MechPumpOn:CMD,One,Zero,1561,MOD1:Coil1561:Read
+161,"PGB2 Roughing Valve Open Command",PGB2:RoughingValveOpen:CMD,One,Zero,1562,MOD1:Coil1562:Read
+162,"PGB2 Backing Valve Open Command",PGB2:BackingValveOpen:CMD,One,Zero,1563,MOD1:Coil1563:Read
+163,"PGB2 High Vacuum Valve Open Command",PGB2:HiVacValveOpen:CMD,One,Zero,1564,MOD1:Coil1564:Read
+164,xx,CoilBlank1565,One,Zero,1565,MOD1:Coil1565:Read
+165,"Fix Target Water Valve Open Command",TARFIX:WaterValveOpen:CMD,One,Zero,1566,MOD1:Coil1566:Read
+166,xx,CoilBlank1567,One,Zero,1567,MOD1:Coil1567:Read
+167,xx,CoilBlank1568,One,Zero,1568,MOD1:Coil1568:Read
+168,xx,CoilBlank1569,One,Zero,1569,MOD1:Coil1569:Read
+169,xx,CoilBlank1570,One,Zero,1570,MOD1:Coil1570:Read
+170,xx,CoilBlank1571,One,Zero,1571,MOD1:Coil1571:Read
+171,xx,CoilBlank1572,One,Zero,1572,MOD1:Coil1572:Read
+172,xx,CoilBlank1573,One,Zero,1573,MOD1:Coil1573:Read
+173,xx,CoilBlank1574,One,Zero,1574,MOD1:Coil1574:Read
+174,xx,CoilBlank1575,One,Zero,1575,MOD1:Coil1575:Read
+175,xx,CoilBlank1576,One,Zero,1576,MOD1:Coil1576:Read
+176,xx,CoilBlank1577,One,Zero,1577,MOD1:Coil1577:Read
+177,xx,CoilBlank1578,One,Zero,1578,MOD1:Coil1578:Read
+178,xx,CoilBlank1579,One,Zero,1579,MOD1:Coil1579:Read
+179,xx,CoilBlank1580,One,Zero,1580,MOD1:Coil1580:Read
+180,xx,CoilBlank1581,One,Zero,1581,MOD1:Coil1581:Read
+181,xx,CoilBlank1582,One,Zero,1582,MOD1:Coil1582:Read
+182,xx,CoilBlank1583,One,Zero,1583,MOD1:Coil1583:Read
+183,xx,CoilBlank1584,One,Zero,1584,MOD1:Coil1584:Read
+184,xx,CoilBlank1585,One,Zero,1585,MOD1:Coil1585:Read
+185,xx,CoilBlank1586,One,Zero,1586,MOD1:Coil1586:Read
+186,xx,CoilBlank1587,One,Zero,1587,MOD1:Coil1587:Read
+187,xx,CoilBlank1588,One,Zero,1588,MOD1:Coil1588:Read
+188,xx,CoilBlank1589,One,Zero,1589,MOD1:Coil1589:Read
+189,xx,CoilBlank1590,One,Zero,1590,MOD1:Coil1590:Read
+190,xx,CoilBlank1591,One,Zero,1591,MOD1:Coil1591:Read
+191,xx,CoilBlank1592,One,Zero,1592,MOD1:Coil1592:Read
+192,xx,CoilBlank1593,One,Zero,1593,MOD1:Coil1593:Read
+193,xx,CoilBlank1594,One,Zero,1594,MOD1:Coil1594:Read
+194,xx,CoilBlank1595,One,Zero,1595,MOD1:Coil1595:Read
+195,xx,CoilBlank1596,One,Zero,1596,MOD1:Coil1596:Read
+196,xx,CoilBlank1597,One,Zero,1597,MOD1:Coil1597:Read
+197,xx,CoilBlank1598,One,Zero,1598,MOD1:Coil1598:Read
+198,xx,CoilBlank1599,One,Zero,1599,MOD1:Coil1599:Read
+199,xx,CoilBlank1600,One,Zero,1600,MOD1:Coil1600:Read
+200,xx,CoilBlank1601,One,Zero,1601,MOD1:Coil1601:Read
+201,xx,CoilBlank1602,One,Zero,1602,MOD1:Coil1602:Read
+202,xx,CoilBlank1603,One,Zero,1603,MOD1:Coil1603:Read
+203,xx,CoilBlank1604,One,Zero,1604,MOD1:Coil1604:Read
+204,xx,CoilBlank1605,One,Zero,1605,MOD1:Coil1605:Read
+205,xx,CoilBlank1606,One,Zero,1606,MOD1:Coil1606:Read
+206,xx,CoilBlank1607,One,Zero,1607,MOD1:Coil1607:Read
+207,xx,CoilBlank1608,One,Zero,1608,MOD1:Coil1608:Read
+208,xx,CoilBlank1609,One,Zero,1609,MOD1:Coil1609:Read
+209,xx,CoilBlank1610,One,Zero,1610,MOD1:Coil1610:Read
+210,xx,CoilBlank1611,One,Zero,1611,MOD1:Coil1611:Read
+211,xx,CoilBlank1612,One,Zero,1612,MOD1:Coil1612:Read
+212,xx,CoilBlank1613,One,Zero,1613,MOD1:Coil1613:Read
+213,xx,CoilBlank1614,One,Zero,1614,MOD1:Coil1614:Read
+214,xx,CoilBlank1615,One,Zero,1615,MOD1:Coil1615:Read
+215,xx,CoilBlank1616,One,Zero,1616,MOD1:Coil1616:Read
+216,"Main Key On + No SSPS Gnd Fault",CYC:MainKeyOnNoSSPSGndFault:Status,One,Zero,1617,MOD1:Coil1617:Read
+217,"System Ready to FC1",CYC:SystemReadyToFC1:Status,One,Zero,1618,MOD1:Coil1618:Read
+218,"Beam Allowed In Vault Past FC1",CYC:VaultPastFC1BeamAllowed:Status,One,Zero,1619,MOD1:Coil1619:Read
+219,"No HSIS Inconsistency In Vault",CYC:HSISNoInconsistency:Status,One,Zero,1620,MOD1:Coil1620:Read
+220,"Basic RF Interlocks OK",RF:BasicInterlocksOK:Status,One,Zero,1621,MOD1:Coil1621:Read
+221,"Anode Power Supply Ext Interlock",ANODE:PowerSupply:ExtIntlk:Status,One,Zero,1622,MOD1:Coil1622:Read
+222,"Therapy Sum Relay A Activate",CYC:TherapySumRelayA:Activate,One,Zero,1623,MOD1:Coil1623:Read
+223,"Therapy Sum Relay B Activate",CYC:TherapySumRelayB:Activate,One,Zero,1624,MOD1:Coil1624:Read
+224,"Line A Ready In Test Mode",BLA:ReadyInTest:Status,One,Zero,1625,MOD1:Coil1625:Read
+225,"Line A Ready In Treat Mode",BLA:ReadyInTreat:Status,One,Zero,1626,MOD1:Coil1626:Read
+226,"Line A No HSIS Inconsistency",BLA:NoHSISInconsistency:Status,One,Zero,1627,MOD1:Coil1627:Read
+227,"DMC-A Timer Enable",DMC:ATimerEnable:Status,One,Zero,1628,MOD1:Coil1628:Read
+228,"Line B Ready In Test Mode",BLB:ReadyInTest:Status,One,Zero,1629,MOD1:Coil1629:Read
+229,"Line B Ready In Treat Mode",BLB:ReadyInTreat:Status,One,Zero,1630,MOD1:Coil1630:Read
+230,"Line B Open Path Command",BLB:OpenPath:Command,One,Zero,1631,MOD1:Coil1631:Read
+231,"DMC-B Timer Enable",DMC:BTimerEnable:Status,One,Zero,1632,MOD1:Coil1632:Read
+232,"FC2C Open Indication to Hot Lab",FC2C:OpenIndicationHL:Lamp,One,Zero,1633,MOD1:Coil1633:Read
+233,"FC2C Closed Indication to Hot Lab",FC2C:ClosedIndicationHL:Lamp,One,Zero,1634,MOD1:Coil1634:Read
+234,"Line C Selected Ind to Hot Lab",BLC:SelectedIndicationHL:Lamp,One,Zero,1635,MOD1:Coil1635:Read
+235,"Penning Gauge On Lamp to HLab",PGC1:PenningGaugeOnHL:Lamp,One,Zero,1636,MOD1:Coil1636:Read
+236,xx,CoilBlank1637,One,Zero,1637,MOD1:Coil1637:Read
+237,xx,CoilBlank1638,One,Zero,1638,MOD1:Coil1638:Read
+238,xx,CoilBlank1639,One,Zero,1639,MOD1:Coil1639:Read
+239,"WatchDog A Output for Scope",CYC:WatchDogAScope:Output,One,Zero,1640,MOD1:Coil1640:Read
+240,"SSPS Ground Fault Lamp -HSIS Cab-",SSPS:GroundFault:Lamp,One,Zero,1641,MOD1:Coil1641:Read
+241,"WatchDog B Not OK Lamp -HSIS Cab-",CYC:WatchDogBNotOK:Lamp,One,Zero,1642,MOD1:Coil1642:Read
+242,"Safety Inconsistent Lamp -HSIS Cab-",CYC:SafetyInconsistent:Lamp,One,Zero,1643,MOD1:Coil1643:Read
+243,xx,CoilBlank1644,One,Zero,1644,MOD1:Coil1644:Read
+244,xx,CoilBlank1645,One,Zero,1645,MOD1:Coil1645:Read
+245,xx,CoilBlank1646,One,Zero,1646,MOD1:Coil1646:Read
+246,xx,CoilBlank1647,One,Zero,1647,MOD1:Coil1647:Read
+247,xx,CoilBlank1648,One,Zero,1648,MOD1:Coil1648:Read
+248,xx,CoilBlank1649,One,Zero,1649,MOD1:Coil1649:Read
+249,xx,CoilBlank1650,One,Zero,1650,MOD1:Coil1650:Read
+250,xx,CoilBlank1651,One,Zero,1651,MOD1:Coil1651:Read
+251,xx,CoilBlank1652,One,Zero,1652,MOD1:Coil1652:Read
+252,xx,CoilBlank1653,One,Zero,1653,MOD1:Coil1653:Read
+253,xx,CoilBlank1654,One,Zero,1654,MOD1:Coil1654:Read
+254,xx,CoilBlank1655,One,Zero,1655,MOD1:Coil1655:Read
+255,xx,CoilBlank1656,One,Zero,1656,MOD1:Coil1656:Read
+256,xx,CoilBlank1657,One,Zero,1657,MOD1:Coil1657:Read
+257,xx,CoilBlank1658,One,Zero,1658,MOD1:Coil1658:Read
+258,xx,CoilBlank1659,One,Zero,1659,MOD1:Coil1659:Read
+259,xx,CoilBlank1660,One,Zero,1660,MOD1:Coil1660:Read
+260,xx,CoilBlank1661,One,Zero,1661,MOD1:Coil1661:Read
+261,xx,CoilBlank1662,One,Zero,1662,MOD1:Coil1662:Read
+262,xx,CoilBlank1663,One,Zero,1663,MOD1:Coil1663:Read
+263,xx,CoilBlank1664,One,Zero,1664,MOD1:Coil1664:Read
+264,xx,CoilBlank1665,One,Zero,1665,MOD1:Coil1665:Read
+265,xx,CoilBlank1666,One,Zero,1666,MOD1:Coil1666:Read
+266,xx,CoilBlank1667,One,Zero,1667,MOD1:Coil1667:Read
+267,xx,CoilBlank1668,One,Zero,1668,MOD1:Coil1668:Read
+268,xx,CoilBlank1669,One,Zero,1669,MOD1:Coil1669:Read
+269,xx,CoilBlank1670,One,Zero,1670,MOD1:Coil1670:Read
+270,xx,CoilBlank1671,One,Zero,1671,MOD1:Coil1671:Read
+271,xx,CoilBlank1672,One,Zero,1672,MOD1:Coil1672:Read
+272,xx,CoilBlank1673,One,Zero,1673,MOD1:Coil1673:Read
+273,xx,CoilBlank1674,One,Zero,1674,MOD1:Coil1674:Read
+274,xx,CoilBlank1675,One,Zero,1675,MOD1:Coil1675:Read
+275,xx,CoilBlank1676,One,Zero,1676,MOD1:Coil1676:Read
+276,xx,CoilBlank1677,One,Zero,1677,MOD1:Coil1677:Read
+277,xx,CoilBlank1678,One,Zero,1678,MOD1:Coil1678:Read
+278,xx,CoilBlank1679,One,Zero,1679,MOD1:Coil1679:Read
+279,xx,CoilBlank1680,One,Zero,1680,MOD1:Coil1680:Read
+280,xx,CoilBlank1681,One,Zero,1681,MOD1:Coil1681:Read
+281,xx,CoilBlank1682,One,Zero,1682,MOD1:Coil1682:Read
+282,xx,CoilBlank1683,One,Zero,1683,MOD1:Coil1683:Read
+283,xx,CoilBlank1684,One,Zero,1684,MOD1:Coil1684:Read
+284,xx,CoilBlank1685,One,Zero,1685,MOD1:Coil1685:Read
+285,xx,CoilBlank1686,One,Zero,1686,MOD1:Coil1686:Read
+286,xx,CoilBlank1687,One,Zero,1687,MOD1:Coil1687:Read
+287,xx,CoilBlank1688,One,Zero,1688,MOD1:Coil1688:Read
+288,xx,CoilBlank1689,One,Zero,1689,MOD1:Coil1689:Read
+289,xx,CoilBlank1690,One,Zero,1690,MOD1:Coil1690:Read
+290,xx,CoilBlank1691,One,Zero,1691,MOD1:Coil1691:Read
+291,xx,CoilBlank1692,One,Zero,1692,MOD1:Coil1692:Read
+292,xx,CoilBlank1693,One,Zero,1693,MOD1:Coil1693:Read
+293,xx,CoilBlank1694,One,Zero,1694,MOD1:Coil1694:Read
+294,xx,CoilBlank1695,One,Zero,1695,MOD1:Coil1695:Read
+295,xx,CoilBlank1696,One,Zero,1696,MOD1:Coil1696:Read
+296,xx,CoilBlank1697,One,Zero,1697,MOD1:Coil1697:Read
+297,xx,CoilBlank1698,One,Zero,1698,MOD1:Coil1698:Read
+298,xx,CoilBlank1699,One,Zero,1699,MOD1:Coil1699:Read
+299,xx,CoilBlank1700,One,Zero,1700,MOD1:Coil1700:Read
+300,xx,CoilBlank1701,One,Zero,1701,MOD1:Coil1701:Read
+301,xx,CoilBlank1702,One,Zero,1702,MOD1:Coil1702:Read
+302,xx,CoilBlank1703,One,Zero,1703,MOD1:Coil1703:Read
+303,xx,CoilBlank1704,One,Zero,1704,MOD1:Coil1704:Read
+304,xx,CoilBlank1705,One,Zero,1705,MOD1:Coil1705:Read
+305,xx,CoilBlank1706,One,Zero,1706,MOD1:Coil1706:Read
+306,xx,CoilBlank1707,One,Zero,1707,MOD1:Coil1707:Read
+307,xx,CoilBlank1708,One,Zero,1708,MOD1:Coil1708:Read
+308,xx,CoilBlank1709,One,Zero,1709,MOD1:Coil1709:Read
+309,xx,CoilBlank1710,One,Zero,1710,MOD1:Coil1710:Read
+310,xx,CoilBlank1711,One,Zero,1711,MOD1:Coil1711:Read
+311,xx,CoilBlank1712,One,Zero,1712,MOD1:Coil1712:Read
+312,xx,CoilBlank1713,One,Zero,1713,MOD1:Coil1713:Read
+313,xx,CoilBlank1714,One,Zero,1714,MOD1:Coil1714:Read
+314,xx,CoilBlank1715,One,Zero,1715,MOD1:Coil1715:Read
+315,xx,CoilBlank1716,One,Zero,1716,MOD1:Coil1716:Read
+316,xx,CoilBlank1717,One,Zero,1717,MOD1:Coil1717:Read
+317,xx,CoilBlank1718,One,Zero,1718,MOD1:Coil1718:Read
+318,xx,CoilBlank1719,One,Zero,1719,MOD1:Coil1719:Read
+319,xx,CoilBlank1720,One,Zero,1720,MOD1:Coil1720:Read
+320,xx,CoilBlank1721,One,Zero,1721,MOD1:Coil1721:Read
+321,xx,CoilBlank1722,One,Zero,1722,MOD1:Coil1722:Read
+322,xx,CoilBlank1723,One,Zero,1723,MOD1:Coil1723:Read
+323,xx,CoilBlank1724,One,Zero,1724,MOD1:Coil1724:Read
+324,xx,CoilBlank1725,One,Zero,1725,MOD1:Coil1725:Read
+325,xx,CoilBlank1726,One,Zero,1726,MOD1:Coil1726:Read
+326,xx,CoilBlank1727,One,Zero,1727,MOD1:Coil1727:Read
+327,xx,CoilBlank1728,One,Zero,1728,MOD1:Coil1728:Read
+328,"Magnet System OK Lamp",MAG:SystemOK:Lamp,One,Zero,1729,MOD1:Coil1729:Read
+329,"RF DC System OK Lamp",RF:DCSystemOK:Lamp,One,Zero,1730,MOD1:Coil1730:Read
+330,"Source System OK Lamp",SOURCE:SystemOK:Lamp,One,Zero,1731,MOD1:Coil1731:Read
+331,"Extraction System OK Lamp",EXT:SystemOK:Lamp,One,Zero,1732,MOD1:Coil1732:Read
+332,"Beam Diag System OK Lamp",BDIAG:SystemOK:Lamp,One,Zero,1733,MOD1:Coil1733:Read
+333,"Vacuum System OK Lamp",VAC:SystemOK:Lamp,One,Zero,1734,MOD1:Coil1734:Read
+334,"BeamLine to FC1 System OK Lamp",CYC:BLtoFC1:SystemOK:Lamp,One,Zero,1735,MOD1:Coil1735:Read
+335,"FC1 to TGT System OK Lamp",CYC:FC1toTGT:SystemOK:Lamp,One,Zero,1736,MOD1:Coil1736:Read
+336,"Cooling System OK Lamp",CYC:CoolingSystemOK:Lamp,One,Zero,1737,MOD1:Coil1737:Read
+337,"Therapy System OK Lamp",CYC:TherapySystemOK:Lamp,One,Zero,1738,MOD1:Coil1738:Read
+338,"Spare A System OK Lamp",CYC:SpareA:SystemOK:Lamp,One,Zero,1739,MOD1:Coil1739:Read
+339,"Radiation Monitor Lamp",CYC:RadMon:SystemOK:Lamp,One,Zero,1740,MOD1:Coil1740:Read
+340,"Summary System OK Lamp",CYC:Summary:SystemOK:Lamp,One,Zero,1741,MOD1:Coil1741:Read
+341,"RF AC System OK Lamp",RF:ACSystemOK:Lamp,One,Zero,1742,MOD1:Coil1742:Read
+342,"Vault Safety System OK Lamp",SAFETY:VaultSystemOK:Lamp,One,Zero,1743,MOD1:Coil1743:Read
+343,"Safety to TGT A or B System OK Lamp",SAFETY:ToTGTAorBSystemOK:Lamp,One,Zero,1744,MOD1:Coil1744:Read
+344,"Spare RF System OK Lamp",RF:Spare:SystemOK:Lamp,One,Zero,1745,MOD1:Coil1745:Read
+345,"Stand-by Level 1 OK Lamp",CYC:SB1OK:Lamp,One,Zero,1746,MOD1:Coil1746:Read
+346,"Stand-by Level 2 OK Lamp",CYC:SB2OK:Lamp,One,Zero,1747,MOD1:Coil1747:Read
+347,"FC1 In Lamp @ CO",CCC:FC1In:Lamp,One,Zero,1748,MOD1:Coil1748:Read
+348,"FC1 Out Lamp @ CO",CCC:FC1Out:Lamp,One,Zero,1749,MOD1:Coil1749:Read
+349,"FC2 In Lamp @ CO",CCC:FC2In:Lamp,One,Zero,1750,MOD1:Coil1750:Read
+350,"FC2 Out Lamp @ CO",CCC:FC2Out:Lamp,One,Zero,1751,MOD1:Coil1751:Read
+351,"FC3 In Lamp @ CO",CCC:FC3In:Lamp,One,Zero,1752,MOD1:Coil1752:Read
+352,"FC3 Out Lamp @ CO",CCC:FC3Out:Lamp,One,Zero,1753,MOD1:Coil1753:Read
+353,"FC1 Interlock Lamp @ CO",CCC:FC1Interlock:Lamp,One,Zero,1754,MOD1:Coil1754:Read
+354,"FC2 Interlock Lamp @ CO",CCC:FC2Interlock:Lamp,One,Zero,1755,MOD1:Coil1755:Read
+355,"FC3 Interlock Lamp @ CO",CCC:FC3Interlock:Lamp,One,Zero,1756,MOD1:Coil1756:Read
+356,"Cyclotron Ready for Therapy Lamp",CCC:CycReadyForTherapy:Lamp,One,Zero,1757,MOD1:Coil1757:Read
+357,"Cyclotron Ready for Isotope Lamp",CCC:CycReadyforIsotope:Lamp,One,Zero,1758,MOD1:Coil1758:Read
+358,"Operator Alert Beeper @ CO",CCC:OperatorAlertBeeper,One,Zero,1759,MOD1:Coil1759:Read
+359,"Beam On Lamp @ CO",CCC:BeamOn:Lamp,One,Zero,1760,MOD1:Coil1760:Read
+360,"Iso Console Enabled Lamp",ICC:ConsoleEnabled:Lamp,One,Zero,1761,MOD1:Coil1761:Read
+361,"Iso Console Line A Test Lamp",ICC:LineATest:Lamp,One,Zero,1762,MOD1:Coil1762:Read
+362,"Iso Console Other Line Selected Lamp",ICC:OtherLineSelected:Lamp,One,Zero,1763,MOD1:Coil1763:Read
+363,"Iso Console No Line Selected Lamp",ICC:NoLineSelected:Lamp,One,Zero,1764,MOD1:Coil1764:Read
+364,"Iso Console Line A Treat Lamp",ICC:LineATreat:Lamp,One,Zero,1765,MOD1:Coil1765:Read
+365,"Iso Console Proton Beam Interlock Lamp",ICC:ProtonBeamIntlk:Lamp,One,Zero,1766,MOD1:Coil1766:Read
+366,"Iso Console Therapy Interlock Lamp",ICC:TherapyIntlk:Lamp,One,Zero,1767,MOD1:Coil1767:Read
+367,"Iso Console Start Lamp",ICC:Start:Lamp,One,Zero,1768,MOD1:Coil1768:Read
+368,"Fix Console Enabled Lamp",FCC:ConsoleEnabled:Lamp,One,Zero,1769,MOD1:Coil1769:Read
+369,"Fix Console Line B Test Lamp",FCC:LineBTest:Lamp,One,Zero,1770,MOD1:Coil1770:Read
+370,"Fix Console Other Line Selected Lamp",FCC:OtherLineSelected:Lamp,One,Zero,1771,MOD1:Coil1771:Read
+371,"Fix Console No Line Selected Lamp",FCC:NoLineSelected:Lamp,One,Zero,1772,MOD1:Coil1772:Read
+372,"Fix Console Line B Treat Lamp",FCC:LineBTreat:Lamp,One,Zero,1773,MOD1:Coil1773:Read
+373,"Fix Console Proton Beam Interlock Lamp",FCC:ProtonBeamIntlk:Lamp,One,Zero,1774,MOD1:Coil1774:Read
+374,"Fix Console Therapy Interlock Lamp",FCC:TherapyIntlk:Lamp,One,Zero,1775,MOD1:Coil1775:Read
+375,"Fix Console Start Lamp",FCC:Start:Lamp,One,Zero,1776,MOD1:Coil1776:Read
+376,"Iso Console Beam Path Open Lamp",ICC:BeamPathOpen:Lamp,One,Zero,1777,MOD1:Coil1777:Read
+377,"Iso Console Beam Path Closed Lamp",ICC:BeamPathClosed:Lamp,One,Zero,1778,MOD1:Coil1778:Read
+378,"Iso Console Neutron Beam On Lamp",ICC:NeutronBeamOn:Lamp,One,Zero,1779,MOD1:Coil1779:Read
+379,"Iso Console One Minute Delay Lamp",ICC:OneMinDelay:Lamp,One,Zero,1780,MOD1:Coil1780:Read
+380,"Fix Console Beam Path Open Lamp",FCC:BeamPathOpen:Lamp,One,Zero,1781,MOD1:Coil1781:Read
+381,"Fix Console Beam Path Closed Lamp",FCC:BeamPathClosed:Lamp,One,Zero,1782,MOD1:Coil1782:Read
+382,"Fix Console Neutron Beam On Lamp",FCC:NeutronBeamOn:Lamp,One,Zero,1783,MOD1:Coil1783:Read
+383,"Fix Console One Minute Delay Lamp",FCC:OneMinDelay:Lamp,One,Zero,1784,MOD1:Coil1784:Read
+384,"CCC Beam Path Open Lamp",CCC:BeamPathOpen:Lamp,One,Zero,1785,MOD1:Coil1785:Read
+385,"CCC Beam Path Closed Lamp",CCC:BeamPathClosed:Lamp,One,Zero,1786,MOD1:Coil1786:Read
+386,"CCC Neutron Beam On Lamp",CCC:NeutronBeamOn:Lamp,One,Zero,1787,MOD1:Coil1787:Read
+387,"CCC Defl Probe Enabled Lamp",CCC:DeflProbeEnabled:Lamp,One,Zero,1788,MOD1:Coil1788:Read
+388,"CCC Defl Probe at Internal Lamp",CCC:DeflProbeInternal:Lamp,One,Zero,1789,MOD1:Coil1789:Read
+389,"CCC Defl Probe at External Lamp",CCC:DeflProbeExternal:Lamp,One,Zero,1790,MOD1:Coil1790:Read
+390,"CCC Defl Probe at Out Lamp",CCC:DeflProbeOut:Lamp,One,Zero,1791,MOD1:Coil1791:Read
+391,xx,CoilBlank1792,One,Zero,1792,MOD1:Coil1792:Read
+392,"CCC Line A Selected In Treat Lamp",CCC:LineASelectedTreat:Lamp,One,Zero,1793,MOD1:Coil1793:Read
+393,"CCC Line A Selected In Test Lamp",CCC:LineASelectedTestt:Lamp,One,Zero,1794,MOD1:Coil1794:Read
+394,"CCC Line B Selected In Treat Lamp",CCC:LineBSelectedTreat:Lamp,One,Zero,1795,MOD1:Coil1795:Read
+395,"CCC Line B Selected In Test Lamp",CCC:LineBSelectedTestt:Lamp,One,Zero,1796,MOD1:Coil1796:Read
+396,"CCC Zero Line Selected Lamp",CCC:ZeroLineSelected:Lamp,One,Zero,1797,MOD1:Coil1797:Read
+397,"CCC Line C Selected Lamp",CCC:LineCSelected:Lamp,One,Zero,1798,MOD1:Coil1798:Read
+398,"CCC No Line Selected Lamp",CCC:NoLineSelected:Lamp,One,Zero,1799,MOD1:Coil1799:Read
+399,xx,CoilBlank1800,One,Zero,1800,MOD1:Coil1800:Read
+400,"PG1 Mech Pump On LED",PG1:MechPumpOn:WD:LED,One,Zero,1801,MOD1:Coil1801:Read
+401,"PG1 Diff Pump On LED",PG1:DiffPumpOn:WD:LED,One,Zero,1802,MOD1:Coil1802:Read
+402,"PG1 Diff Pump Ready LED",PG1:DiffPumpReady:WD:LED,One,Zero,1803,MOD1:Coil1803:Read
+403,"PG1 Diff Pump H2O Ready LED",PG1:DiffPumpH2OReady:WD:LED,One,Zero,1804,MOD1:Coil1804:Read
+404,"PG1 High Vacuum Valve Open LED",PG1:HighVacValveOpen:WD:LED,One,Zero,1805,MOD1:Coil1805:Read
+405,"PG1 High Vacuum Valve Closed LED",PG1:HighVacValveClosed:WD:LED,One,Zero,1806,MOD1:Coil1806:Read
+406,"PG1 Backing Valve Open LED",PG1:BackingValveOpen:WD:LED,One,Zero,1807,MOD1:Coil1807:Read
+407,"PG1 Backing Valve Closed LED",PG1:BackingValveClosed:WD:LED,One,Zero,1808,MOD1:Coil1808:Read
+408,"PG1 Roughing Valve Open LED",PG1:RoughingValveOpen:WD:LED,One,Zero,1809,MOD1:Coil1809:Read
+409,"PG1 Roughing Valve Closed LED",PG1:RoughingValveClosed:WD:LED,One,Zero,1810,MOD1:Coil1810:Read
+410,"PG2 Mech Pump On LED",PG1:MechPumpOn:WD:LED,One,Zero,1811,MOD1:Coil1811:Read
+411,"PG2 Diff Pump On LED",PG1:DiffPumpOn:WD:LED,One,Zero,1812,MOD1:Coil1812:Read
+412,"PG2 Diff Pump Ready LED",PG1:DiffPumpReady:WD:LED,One,Zero,1813,MOD1:Coil1813:Read
+413,"PG2 Diff Pump H2O Ready LED",PG1:DiffPumpH2OReady:WD:LED,One,Zero,1814,MOD1:Coil1814:Read
+414,"PG2 High Vacuum Valve Open LED",PG1:HighVacValveOpen:WD:LED,One,Zero,1815,MOD1:Coil1815:Read
+415,"PG2 High Vacuum Valve Closed LED",PG1:HighVacValveClosed:WD:LED,One,Zero,1816,MOD1:Coil1816:Read
+416,"PG2 Backing Valve Open LED",PG1:BackingValveOpen:WD:LED,One,Zero,1817,MOD1:Coil1817:Read
+417,"PG2 Backing Valve Closed LED",PG1:BackingValveClosed:WD:LED,One,Zero,1818,MOD1:Coil1818:Read
+418,"PGSM Mech Pump On LED",PGSM:MechPumpOn:WD:LED,One,Zero,1819,MOD1:Coil1819:Read
+419,"PGSM Turbo On LED",PGSM:TurboOn:WD:LED,One,Zero,1820,MOD1:Coil1820:Read
+420,"PGSM Turbo Ready LED",PGSM:TurboReady:WD:LED,One,Zero,1821,MOD1:Coil1821:Read
+421,"PGSM Turbo Fault LED",PGSM:TurboFault:WD:LED,One,Zero,1822,MOD1:Coil1822:Read
+422,"PGSM High Vacuum Valve Open LED",PGSM:HighVacValveOpen:WD:LED,One,Zero,1823,MOD1:Coil1823:Read
+423,"PGSM High Vacuum Valve Closed LED",PGSM:HighVacValveClosed:WD:LED,One,Zero,1824,MOD1:Coil1824:Read
+424,"PGSM Backing Valve Open LED",PGSM:BackingValveOpen:WD:LED,One,Zero,1825,MOD1:Coil1825:Read
+425,"PGSM Backing Valve Closed LED",PGSM:BackingValveClosed:WD:LED,One,Zero,1826,MOD1:Coil1826:Read
+426,"PGSM Roughing Valve Open LED",PGSM:RoughingValveOpen:WD:LED,One,Zero,1827,MOD1:Coil1827:Read
+427,"PGSM Roughing Valve Closed LED",PGSM:RoughingValveClosed:WD:LED,One,Zero,1828,MOD1:Coil1828:Read
+428,"PGA1 Mech Pump On LED",PGA1:MechPumpOn:WD:LED,One,Zero,1829,MOD1:Coil1829:Read
+429,"PGA1 Turbo On LED",PGA1:TurboOn:WD:LED,One,Zero,1830,MOD1:Coil1830:Read
+430,"PGA1 Turbo Ready LED",PGA1:TurboReady:WD:LED,One,Zero,1831,MOD1:Coil1831:Read
+431,"PGA1 Turbo Fault LED",PGA1:TurboFault:WD:LED,One,Zero,1832,MOD1:Coil1832:Read
+432,"PGA1 High Vacuum Valve Open LED",PGA1:HighVacValveOpen:WD:LED,One,Zero,1833,MOD1:Coil1833:Read
+433,"PGA1 High Vacuum Valve Closed LED",PGA1:HighVacValveClosed:WD:LED,One,Zero,1834,MOD1:Coil1834:Read
+434,"PGA1 Backing Valve Open LED",PGA1:BackingValveOpen:WD:LED,One,Zero,1835,MOD1:Coil1835:Read
+435,"PGA1 Backing Valve Closed LED",PGA1:BackingValveClosed:WD:LED,One,Zero,1836,MOD1:Coil1836:Read
+436,"PGA1 Roughing Valve Open LED",PGA1:RoughingValveOpen:WD:LED,One,Zero,1837,MOD1:Coil1837:Read
+437,"PGA1 Roughing Valve Closed LED",PGA1:RoughingValveClosed:WD:LED,One,Zero,1838,MOD1:Coil1838:Read
+438,"PGA2 Mech Pump On LED",PGA2:MechPumpOn:WD:LED,One,Zero,1839,MOD1:Coil1839:Read
+439,"PGA2 Turbo On LED",PGA2:TurboOn:WD:LED,One,Zero,1840,MOD1:Coil1840:Read
+440,"PGA2 Turbo Ready LED",PGA2:TurboReady:WD:LED,One,Zero,1841,MOD1:Coil1841:Read
+441,"PGA2 Turbo Fault LED",PGA2:TurboFault:WD:LED,One,Zero,1842,MOD1:Coil1842:Read
+442,"PGA2 High Vacuum Valve Open LED",PGA2:HighVacValveOpen:WD:LED,One,Zero,1843,MOD1:Coil1843:Read
+443,"PGA2 High Vacuum Valve Closed LED",PGA2:HighVacValveClosed:WD:LED,One,Zero,1844,MOD1:Coil1844:Read
+444,"PGA2 Backing Valve Open LED",PGA2:BackingValveOpen:WD:LED,One,Zero,1845,MOD1:Coil1845:Read
+445,"PGA2 Backing Valve Closed LED",PGA2:BackingValveClosed:WD:LED,One,Zero,1846,MOD1:Coil1846:Read
+446,"PGA2 Roughing Valve Open LED",PGA2:RoughingValveOpen:WD:LED,One,Zero,1847,MOD1:Coil1847:Read
+447,"PGA2 Roughing Valve Closed LED",PGA2:RoughingValveClosed:WD:LED,One,Zero,1848,MOD1:Coil1848:Read
+448,"PGB1 Mech Pump On LED",PGB1:MechPumpOn:WD:LED,One,Zero,1849,MOD1:Coil1849:Read
+449,"PGB1 Turbo On LED",PGB1:TurboOn:WD:LED,One,Zero,1850,MOD1:Coil1850:Read
+450,"PGB1 Turbo Ready LED",PGB1:TurboReady:WD:LED,One,Zero,1851,MOD1:Coil1851:Read
+451,"PGB1 Turbo Fault LED",PGB1:TurboFault:WD:LED,One,Zero,1852,MOD1:Coil1852:Read
+452,"PGB1 High Vacuum Valve Open LED",PGB1:HighVacValveOpen:WD:LED,One,Zero,1853,MOD1:Coil1853:Read
+453,"PGB1 High Vacuum Valve Closed LED",PGB1:HighVacValveClosed:WD:LED,One,Zero,1854,MOD1:Coil1854:Read
+454,"PGB1 Backing Valve Open LED",PGB1:BackingValveOpen:WD:LED,One,Zero,1855,MOD1:Coil1855:Read
+455,"PGB1 Backing Valve Closed LED",PGB1:BackingValveClosed:WD:LED,One,Zero,1856,MOD1:Coil1856:Read
+456,"PGB1 Roughing Valve Open LED",PGB1:RoughingValveOpen:WD:LED,One,Zero,1857,MOD1:Coil1857:Read
+457,"PGB1 Roughing Valve Closed LED",PGB1:RoughingValveClosed:WD:LED,One,Zero,1858,MOD1:Coil1858:Read
+458,"PGB2 Mech Pump On LED",PGB2:MechPumpOn:WD:LED,One,Zero,1859,MOD1:Coil1859:Read
+459,"PGB2 Turbo On LED",PGB2:TurboOn:WD:LED,One,Zero,1860,MOD1:Coil1860:Read
+460,"PGB2 Turbo Ready LED",PGB2:TurboReady:WD:LED,One,Zero,1861,MOD1:Coil1861:Read
+461,"PGB2 Turbo Fault LED",PGB2:TurboFault:WD:LED,One,Zero,1862,MOD1:Coil1862:Read
+462,"PGB2 High Vacuum Valve Open LED",PGB2:HighVacValveOpen:WD:LED,One,Zero,1863,MOD1:Coil1863:Read
+463,"PGB2 High Vacuum Valve Closed LED",PGB2:HighVacValveClosed:WD:LED,One,Zero,1864,MOD1:Coil1864:Read
+464,"PGB2 Backing Valve Open LED",PGB2:BackingValveOpen:WD:LED,One,Zero,1865,MOD1:Coil1865:Read
+465,"PGB2 Backing Valve Closed LED",PGB2:BackingValveClosed:WD:LED,One,Zero,1866,MOD1:Coil1866:Read
+466,"PGB2 Roughing Valve Open LED",PGB2:RoughingValveOpen:WD:LED,One,Zero,1867,MOD1:Coil1867:Read
+467,"PGB2 Roughing Valve Closed LED",PGB2:RoughingValveClosed:WD:LED,One,Zero,1868,MOD1:Coil1868:Read
+468,"PGC1 Mech Pump On LED",PGC1:MechPumpOn:WD:LED,One,Zero,1869,MOD1:Coil1869:Read
+469,"PGC1 Turbo On LED",PGC1:TurboOn:WD:LED,One,Zero,1870,MOD1:Coil1870:Read
+470,"PGC1 Turbo Ready LED",PGC1:TurboReady:WD:LED,One,Zero,1871,MOD1:Coil1871:Read
+471,"PGC1 Turbo Fault LED",PGC1:TurboFault:WD:LED,One,Zero,1872,MOD1:Coil1872:Read
+472,"PGC1 High Vacuum Valve Open LED",PGC1:HighVacValveOpen:WD:LED,One,Zero,1873,MOD1:Coil1873:Read
+473,"PGC1 High Vacuum Valve Closed LED",PGC1:HighVacValveClosed:WD:LED,One,Zero,1874,MOD1:Coil1874:Read
+474,"PGC1 Backing Valve Open LED",PGC1:BackingValveOpen:WD:LED,One,Zero,1875,MOD1:Coil1875:Read
+475,"PGC1 Backing Valve Closed LED",PGC1:BackingValveClosed:WD:LED,One,Zero,1876,MOD1:Coil1876:Read
+476,"PGC1 Roughing Valve Open LED",PGC1:RoughingValveOpen:WD:LED,One,Zero,1877,MOD1:Coil1877:Read
+477,"PGC1 Roughing Valve Closed LED",PGC1:RoughingValveClosed:WD:LED,One,Zero,1878,MOD1:Coil1878:Read
+478,"Error Indication LED",CYC:ErrorIndication:WD:LED,One,Zero,1879,MOD1:Coil1879:Read
+479,"Time Out Indication LED",CYC:TimeOutIndication:WD:LED,One,Zero,1880,MOD1:Coil1880:Read
+480,"PG1PG2 Vacuum OK LED",PG1PG2:VacuumOK:WD:LED,One,Zero,1881,MOD1:Coil1881:Read
+481,"PGSWM Vacuum OK LED",PGSWM:VacuumOK:WD:LED,One,Zero,1882,MOD1:Coil1882:Read
+482,"PGA1 Vacuum OK LED",PGA1:VacuumOK:WD:LED,One,Zero,1883,MOD1:Coil1883:Read
+483,"PGA2 Vacuum OK LED",PGA2:VacuumOK:WD:LED,One,Zero,1884,MOD1:Coil1884:Read
+484,"PGB1 Vacuum OK LED",PGB1:VacuumOK:WD:LED,One,Zero,1885,MOD1:Coil1885:Read
+485,"PGB2 Vacuum OK LED",PGB2:VacuumOK:WD:LED,One,Zero,1886,MOD1:Coil1886:Read
+486,"PGC1 Vacuum OK LED",PGC1:VacuumOK:WD:LED,One,Zero,1887,MOD1:Coil1887:Read
+487,"PGZ1 Vacuum OK LED",PGZ1:VacuumOK:WD:LED,One,Zero,1888,MOD1:Coil1888:Read
+488,"PGZ1 Mech Pump On LED",PGZ1:MechPumpOn:WD:LED,One,Zero,1889,MOD1:Coil1889:Read
+489,"PGZ1 Turbo Pump On LED",PGZ1:TurboPumpOn:WD:LED,One,Zero,1890,MOD1:Coil1890:Read
+490,"PGZ1 Turbo Pump Ready LED",PGZ1:TurboPumpReady:WD:LED,One,Zero,1891,MOD1:Coil1891:Read
+491,"PGZ1 Turbo Pump Fault LED",PGZ1:TurboPumpFault:WD:LED,One,Zero,1892,MOD1:Coil1892:Read
+492,"PGZ1 High Vacuum Valve Open LED",PGZ1:HiVacValveOpen:WD:LED,One,Zero,1893,MOD1:Coil1893:Read
+493,"PGZ1 High Vacuum Valve Closed LED",PGZ1:HiVacValveClosed:WD:LED,One,Zero,1894,MOD1:Coil1894:Read
+494,"PGZ1 BackingValve Open LED",PGZ1:BackingValveOpen:WD:LED,One,Zero,1895,MOD1:Coil1895:Read
+495,"PGZ1 BackingValve Closed LED",PGZ1:BackingValveClosed:WD:LED,One,Zero,1896,MOD1:Coil1896:Read
+496,"PGZ1 Roughing Valve Open LED",PGZ1:RoughingValveOpen:WD:LED,One,Zero,1897,MOD1:Coil1897:Read
+497,"PGZ1 Roughing Valve Closed LED",PGZ1:RoughingValveClosed:WD:LED,One,Zero,1898,MOD1:Coil1898:Read
+498,"PGZ2 Scroll Pump On LED",PGZ2:ScrollPumpOn:WD:LED,One,Zero,1899,MOD1:Coil1899:Read
+499,"PGZ2 PV Open LED",PGZ2:PVOpen:WD:LED,One,Zero,1900,MOD1:Coil1900:Read
+500,"PGZ2 PV Closed LED",PGZ2:PVClosed:WD:LED,One,Zero,1901,MOD1:Coil1901:Read
+501,xx,CoilBlank1902,One,Zero,1902,MOD1:Coil1902:Read
+502,xx,CoilBlank1903,One,Zero,1903,MOD1:Coil1903:Read
+503,xx,CoilBlank1904,One,Zero,1904,MOD1:Coil1904:Read
+504,"BEV Open LED",BEV:Open:WD:LED,One,Zero,1905,MOD1:Coil1905:Read
+505,"BEV Closed LED",BEV:Closed:WD:LED,One,Zero,1906,MOD1:Coil1906:Read
+506,"BLV A1 Open LED",BLV:A1:Open:WD:LED,One,Zero,1907,MOD1:Coil1907:Read
+507,"BLV A1 Closed LED",BLV:A1:Closed:WD:LED,One,Zero,1908,MOD1:Coil1908:Read
+508,"BLV A2 Open LED",BLV:A2:Open:WD:LED,One,Zero,1909,MOD1:Coil1909:Read
+509,"BLV A2 Closed LED",BLV:A2:Closed:WD:LED,One,Zero,1910,MOD1:Coil1910:Read
+510,"BLV B1 Open LED",BLV:B1:Open:WD:LED,One,Zero,1911,MOD1:Coil1911:Read
+511,"BLV B1 Closed LED",BLV:B1:Closed:WD:LED,One,Zero,1912,MOD1:Coil1912:Read
+512,"BLV B2 Open LED",BLV:B2:Open:WD:LED,One,Zero,1913,MOD1:Coil1913:Read
+513,"BLV B2 Closed LED",BLV:B2:Closed:WD:LED,One,Zero,1914,MOD1:Coil1914:Read
+514,"BLV C1 Open LED",BLV:C1:Open:WD:LED,One,Zero,1915,MOD1:Coil1915:Read
+515,"BLV C1 Closed LED",BLV:C1:Closed:WD:LED,One,Zero,1916,MOD1:Coil1916:Read
+516,"BLV Z1 Open LED",BLV:Z1:Open:WD:LED,One,Zero,1917,MOD1:Coil1917:Read
+517,"BLV Z1 Closed LED",BLV:Z1:Closed:WD:LED,One,Zero,1918,MOD1:Coil1918:Read
+518,"BLV Z2 Open LED",BLV:Z2:Open:WD:LED,One,Zero,1919,MOD1:Coil1919:Read
+519,"BLV Z2 Closed LED",BLV:Z2:Closed:WD:LED,One,Zero,1920,MOD1:Coil1920:Read
+520,"PSARC Off",PDPCoil1921,One,Zero,1921,MOD1:Coil1921:Read
+521,"PSARC On",PDPCoil1922,One,Zero,1922,MOD1:Coil1922:Read
+522,"PSARC In Local",PDPCoil1923,One,Zero,1923,MOD1:Coil1923:Read
+523,"Ion Source Cooling Not OK",PDPCoil1924,One,Zero,1924,MOD1:Coil1924:Read
+524,"PSARC Safety Cover Not In Pos",PDPCoil1925,One,Zero,1925,MOD1:Coil1925:Read
+525,"Hydrogen Selected",PDPCoil1926,One,Zero,1926,MOD1:Coil1926:Read
+526,"Deuterium Selected",PDPCoil1927,One,Zero,1927,MOD1:Coil1927:Read
+527,"Modicon 1 Battery OK",PDPCoil1928,One,Zero,1928,MOD1:Coil1928:Read
+528,"Mech Pump On",PDPCoil1929,One,Zero,1929,MOD1:Coil1929:Read
+529,"Diff Pump On",PDPCoil1930,One,Zero,1930,MOD1:Coil1930:Read
+530,"Diff Pump Flow OK",PDPCoil1931,One,Zero,1931,MOD1:Coil1931:Read
+531,"Diff Pump Ready",PDPCoil1932,One,Zero,1932,MOD1:Coil1932:Read
+532,"Roughing Valve Open",PDPCoil1933,One,Zero,1933,MOD1:Coil1933:Read
+533,"Roughing Valve Closed",PDPCoil1934,One,Zero,1934,MOD1:Coil1934:Read
+534,"Backing Valve Open",PDPCoil1935,One,Zero,1935,MOD1:Coil1935:Read
+535,"Backing Valve Closed",PDPCoil1936,One,Zero,1936,MOD1:Coil1936:Read
+536,"High Vacuum Valve Open",PDPCoil1937,One,Zero,1937,MOD1:Coil1937:Read
+537,"High Vacuum Valve Closed",PDPCoil1938,One,Zero,1938,MOD1:Coil1938:Read
+538,"Pump Group In Off Mode",PDPCoil1939,One,Zero,1939,MOD1:Coil1939:Read
+539,"Pump Group In Standby",PDPCoil1940,One,Zero,1940,MOD1:Coil1940:Read
+540,"Pump Group In Pump Mode",PDPCoil1941,One,Zero,1941,MOD1:Coil1941:Read
+541,xx,CoilBlank1942,One,Zero,1942,MOD1:Coil1942:Read
+542,"Beam Line Valve Open",PDPCoil1943,One,Zero,1943,MOD1:Coil1943:Read
+543,"Beam Line Valve Closed",PDPCoil1944,One,Zero,1944,MOD1:Coil1944:Read
+544,"PSARC Overload",PDPCoil1945,One,Zero,1945,MOD1:Coil1945:Read
+545,"Cathodes Not In Position",PDPCoil1946,One,Zero,1946,MOD1:Coil1946:Read
+546,"PSARC Not In RF Maint Mode",PDPCoil1947,One,Zero,1947,MOD1:Coil1947:Read
+547,"PSARC Emergency Loop Not OK",PDPCoil1948,One,Zero,1948,MOD1:Coil1948:Read
+548,"Vacuum OK In Selected Beam Line",PDPCoil1949,One,Zero,1949,MOD1:Coil1949:Read
+549,xx,CoilBlank1950,One,Zero,1950,MOD1:Coil1950:Read
+550,xx,CoilBlank1951,One,Zero,1951,MOD1:Coil1951:Read
+551,xx,CoilBlank1952,One,Zero,1952,MOD1:Coil1952:Read
+552,"Mech Pump On",PDPCoil1953,One,Zero,1953,MOD1:Coil1953:Read
+553,"Vault Door Closed",PDPCoil1954,One,Zero,1954,MOD1:Coil1954:Read
+554,"Beam Plugs In Remote",PDPCoil1955,One,Zero,1955,MOD1:Coil1955:Read
+555,"No Line Selected",PDPCoil1956,One,Zero,1956,MOD1:Coil1956:Read
+556,xx,CoilBlank1957,One,Zero,1957,MOD1:Coil1957:Read
+557,"FC1 Open",PDPCoil1958,One,Zero,1958,MOD1:Coil1958:Read
+558,"FC1 Closed",PDPCoil1959,One,Zero,1959,MOD1:Coil1959:Read
+559,"FC1 Cooling OK",PDPCoil1960,One,Zero,1960,MOD1:Coil1960:Read
+560,"Cyclotron Ready for Therapy",PDPCoil1961,One,Zero,1961,MOD1:Coil1961:Read
+561,"SSPS Ground Fault Detect 0",PDPCoil1962,One,Zero,1962,MOD1:Coil1962:Read
+562,"Safety OK in Vault",PDPCoil1963,One,Zero,1963,MOD1:Coil1963:Read
+563,"Safety OK to Target A",PDPCoil1964,One,Zero,1964,MOD1:Coil1964:Read
+564,"Safety OK to Target B",PDPCoil1965,One,Zero,1965,MOD1:Coil1965:Read
+565,"Dosimetry OK Line A or B",PDPCoil1966,One,Zero,1966,MOD1:Coil1966:Read
+566,"Therapy Sum Relay OK Line A",PDPCoil1967,One,Zero,1967,MOD1:Coil1967:Read
+567,"Check and Confirm OK Line B",PDPCoil1968,One,Zero,1968,MOD1:Coil1968:Read
+568,"Treatment Room Door A Closed",PDPCoil1969,One,Zero,1969,MOD1:Coil1969:Read
+569,"Target + Quad Flow A OK",PDPCoil1970,One,Zero,1970,MOD1:Coil1970:Read
+570,"Drawer A at Treat",PDPCoil1971,One,Zero,1971,MOD1:Coil1971:Read
+571,"Glass Stop A Open",PDPCoil1972,One,Zero,1972,MOD1:Coil1972:Read
+572,"Mobile Pedestal A Disable",PDPCoil1973,One,Zero,1973,MOD1:Coil1973:Read
+573,"Therapy Motions A Disable",PDPCoil1974,One,Zero,1974,MOD1:Coil1974:Read
+574,"Therapy Watchdog A OK",PDPCoil1975,One,Zero,1975,MOD1:Coil1975:Read
+575,"No Safety Inconsistent Line A",PDPCoil1976,One,Zero,1976,MOD1:Coil1976:Read
+576,"Treatment Room Door B Closed",PDPCoil1977,One,Zero,1977,MOD1:Coil1977:Read
+577,"Target + Quad Flow B OK",PDPCoil1978,One,Zero,1978,MOD1:Coil1978:Read
+578,"Drawer B at Treat",PDPCoil1979,One,Zero,1979,MOD1:Coil1979:Read
+579,"Mobile Pedestal B Disable",PDPCoil1980,One,Zero,1980,MOD1:Coil1980:Read
+580,"Motion Stop B OK",PDPCoil1981,One,Zero,1981,MOD1:Coil1981:Read
+581,"Main Probe Cooling OK",PDPCoil1982,One,Zero,1982,MOD1:Coil1982:Read
+582,xx,CoilBlank1983,One,Zero,1983,MOD1:Coil1983:Read
+583,xx,CoilBlank1984,One,Zero,1984,MOD1:Coil1984:Read
+584,"Line A Selected In Test",PDPCoil1985,One,Zero,1985,MOD1:Coil1985:Read
+585,"Line A Selected In Treat",PDPCoil1986,One,Zero,1986,MOD1:Coil1986:Read
+586,"RF Maint Mode Select",PDPCoil1987,One,Zero,1987,MOD1:Coil1987:Read
+587,"Beam Plug A Open",PDPCoil1988,One,Zero,1988,MOD1:Coil1988:Read
+588,"Beam Plug A Closed",PDPCoil1989,One,Zero,1989,MOD1:Coil1989:Read
+589,"FC2A Open",PDPCoil1990,One,Zero,1990,MOD1:Coil1990:Read
+590,"FC2A Closed",PDPCoil1991,One,Zero,1991,MOD1:Coil1991:Read
+591,"FC2A Cooling OK",PDPCoil1992,One,Zero,1992,MOD1:Coil1992:Read
+592,"FC3A Open",PDPCoil1993,One,Zero,1993,MOD1:Coil1993:Read
+593,"FC3A Closed",PDPCoil1994,One,Zero,1994,MOD1:Coil1994:Read
+594,"FC3A Cooling OK",PDPCoil1995,One,Zero,1995,MOD1:Coil1995:Read
+595,"Console B Enabled",PDPCoil1996,One,Zero,1996,MOD1:Coil1996:Read
+596,"Line B Selected In Test",PDPCoil1997,One,Zero,1997,MOD1:Coil1997:Read
+597,"Line B Selected In Treatt",PDPCoil1998,One,Zero,1998,MOD1:Coil1998:Read
+598,"Beam Plug B Open",PDPCoil1999,One,Zero,1999,MOD1:Coil1999:Read
+599,"Beam Plug B Closed",PDPCoil2000,One,Zero,2000,MOD1:Coil2000:Read
+600,"BC2B Open",PDPCoil2001,One,Zero,2001,MOD1:Coil2001:Read
+601,"FC2B Closed",PDPCoil2002,One,Zero,2002,MOD1:Coil2002:Read
+602,"FC2B Cooling OK",PDPCoil2003,One,Zero,2003,MOD1:Coil2003:Read
+603,"FC2C Open",PDPCoil2004,One,Zero,2004,MOD1:Coil2004:Read
+604,"FC2C Closed",PDPCoil2005,One,Zero,2005,MOD1:Coil2005:Read
+605,"FC2C Cooling OK",PDPCoil2006,One,Zero,2006,MOD1:Coil2006:Read
+606,"Target C and Isotope Lab IL OK",PDPCoil2007,One,Zero,2007,MOD1:Coil2007:Read
+607,"Line C Selected",PDPCoil2008,One,Zero,2008,MOD1:Coil2008:Read
+608,xx,CoilBlank2009,One,Zero,2009,MOD1:Coil2009:Read
+609,xx,CoilBlank2010,One,Zero,2010,MOD1:Coil2010:Read
+610,xx,CoilBlank2011,One,Zero,2011,MOD1:Coil2011:Read
+611,xx,CoilBlank2012,One,Zero,2012,MOD1:Coil2012:Read
+612,xx,CoilBlank2013,One,Zero,2013,MOD1:Coil2013:Read
+613,xx,CoilBlank2014,One,Zero,2014,MOD1:Coil2014:Read
+614,xx,CoilBlank2015,One,Zero,2015,MOD1:Coil2015:Read
+615,xx,CoilBlank2016,One,Zero,2016,MOD1:Coil2016:Read
+616,"Request Magnet Display PB",PDPCoil2017,One,Zero,2017,MOD1:Coil2017:Read
+617,"Request Ion Source Display",PDPCoil2018,One,Zero,2018,MOD1:Coil2018:Read
+618,"Request Diagnostics Display",PDPCoil2019,One,Zero,2019,MOD1:Coil2019:Read
+619,"Request Beam Line to FC1 Display",PDPCoil2020,One,Zero,2020,MOD1:Coil2020:Read
+620,"Request RF-DC- Display",PDPCoil2021,One,Zero,2021,MOD1:Coil2021:Read
+621,"Request Extraction Display",PDPCoil2022,One,Zero,2022,MOD1:Coil2022:Read
+622,"Request Vacuum System Display",PDPCoil2023,One,Zero,2023,MOD1:Coil2023:Read
+623,"Request BL FC1 to TGT Display",PDPCoil2024,One,Zero,2024,MOD1:Coil2024:Read
+624,"Request SB1 Transition",PDPCoil2025,One,Zero,2025,MOD1:Coil2025:Read
+625,"Request SB2 Transition",PDPCoil2026,One,Zero,2026,MOD1:Coil2026:Read
+626,"Reset Request BP",PDPCoil2027,One,Zero,2027,MOD1:Coil2027:Read
+627,"Request RF-AC- Display",PDPCoil2028,One,Zero,2028,MOD1:Coil2028:Read
+628,"Request Safety Display Vault",PDPCoil2029,One,Zero,2029,MOD1:Coil2029:Read
+629,"Request Safety to TGT Display",PDPCoil2030,One,Zero,2030,MOD1:Coil2030:Read
+630,xx,CoilBlank2031,One,Zero,2031,MOD1:Coil2031:Read
+631,xx,CoilBlank2032,One,Zero,2032,MOD1:Coil2032:Read
+632,xx,CoilBlank2033,One,Zero,2033,MOD1:Coil2033:Read
+633,xx,CoilBlank2034,One,Zero,2034,MOD1:Coil2034:Read
+634,xx,CoilBlank2035,One,Zero,2035,MOD1:Coil2035:Read
+635,xx,CoilBlank2036,One,Zero,2036,MOD1:Coil2036:Read
+636,xx,CoilBlank2037,One,Zero,2037,MOD1:Coil2037:Read
+637,xx,CoilBlank2038,One,Zero,2038,MOD1:Coil2038:Read
+638,xx,CoilBlank2039,One,Zero,2039,MOD1:Coil2039:Read
+639,xx,CoilBlank2040,One,Zero,2040,MOD1:Coil2040:Read
+640,xx,CoilBlank2041,One,Zero,2041,MOD1:Coil2041:Read
+641,xx,CoilBlank2042,One,Zero,2042,MOD1:Coil2042:Read
+642,xx,CoilBlank2043,One,Zero,2043,MOD1:Coil2043:Read
+643,xx,CoilBlank2044,One,Zero,2044,MOD1:Coil2044:Read
+644,xx,CoilBlank2045,One,Zero,2045,MOD1:Coil2045:Read
+645,xx,CoilBlank2046,One,Zero,2046,MOD1:Coil2046:Read
+646,xx,CoilBlank2047,One,Zero,2047,MOD1:Coil2047:Read
+647,xx,CoilBlank2048,One,Zero,2048,MOD1:Coil2048:Read
+648,"PSHV Line Power Off",PDPCoil2049,One,Zero,2049,MOD1:Coil2049:Read
+649,"PSHV Line Power On",PDPCoil2050,One,Zero,2050,MOD1:Coil2050:Read
+650,"DECU -PSHV- In Local",PDPCoil2051,One,Zero,2051,MOD1:Coil2051:Read
+651,"Septum Temp Not OK",PDPCoil2052,One,Zero,2052,MOD1:Coil2052:Read
+652,"Deflector Cooling Not OK",PDPCoil2053,One,Zero,2053,MOD1:Coil2053:Read
+653,"Deflector Safety Cover Not OK",PDPCoil2054,One,Zero,2054,MOD1:Coil2054:Read
+654,"Deflector Vacuum Interlock Not OK",PDPCoil2055,One,Zero,2055,MOD1:Coil2055:Read
+655,"Deflector Magnet Interlock Not OK",PDPCoil2056,One,Zero,2056,MOD1:Coil2056:Read
+656,"All PSHC Line Power Off",PDPCoil2057,One,Zero,2057,MOD1:Coil2057:Read
+657,"All PSHC Line Power On",PDPCoil2058,One,Zero,2058,MOD1:Coil2058:Read
+658,"All PSCC Off",PDPCoil2059,One,Zero,2059,MOD1:Coil2059:Read
+659,"All PSCC On",PDPCoil2060,One,Zero,2060,MOD1:Coil2060:Read
+660,"PSCC Liner Cooling Interlock",PDPCoil2061,One,Zero,2061,MOD1:Coil2061:Read
+661,"PSCC Ground Fault Interlock",PDPCoil2062,One,Zero,2062,MOD1:Coil2062:Read
+662,xx,CoilBlank2063,One,Zero,2063,MOD1:Coil2063:Read
+663,xx,CoilBlank2064,One,Zero,2064,MOD1:Coil2064:Read
+664,"MPPC Off",CoilBlank2065,One,Zero,2065,MOD1:Coil2065:Read
+665,"MPPC On",CoilBlank2066,One,Zero,2066,MOD1:Coil2066:Read
+666,"Main Probe Service Valve Not Open",CoilBlank2067,One,Zero,2067,MOD1:Coil2067:Read
+667,"Main Probe At Outer Limit",CoilBlank2068,One,Zero,2068,MOD1:Coil2068:Read
+668,"Main Probe At Inner Limit",CoilBlank2069,One,Zero,2069,MOD1:Coil2069:Read
+669,xx,CoilBlank2070,One,Zero,2070,MOD1:Coil2070:Read
+670,xx,CoilBlank2071,One,Zero,2071,MOD1:Coil2071:Read
+671,xx,CoilBlank2072,One,Zero,2072,MOD1:Coil2072:Read
+672,xx,CoilBlank2073,One,Zero,2073,MOD1:Coil2073:Read
+673,xx,CoilBlank2074,One,Zero,2074,MOD1:Coil2074:Read
+674,xx,CoilBlank2075,One,Zero,2075,MOD1:Coil2075:Read
+675,xx,CoilBlank2076,One,Zero,2076,MOD1:Coil2076:Read
+676,xx,CoilBlank2077,One,Zero,2077,MOD1:Coil2077:Read
+677,xx,CoilBlank2078,One,Zero,2078,MOD1:Coil2078:Read
+678,xx,CoilBlank2079,One,Zero,2079,MOD1:Coil2079:Read
+679,xx,CoilBlank2080,One,Zero,2080,MOD1:Coil2080:Read
+680,xx,CoilBlank2081,One,Zero,2081,MOD1:Coil2081:Read
+681,xx,CoilBlank2082,One,Zero,2082,MOD1:Coil2082:Read
+682,xx,CoilBlank2083,One,Zero,2083,MOD1:Coil2083:Read
+683,xx,CoilBlank2084,One,Zero,2084,MOD1:Coil2084:Read
+684,xx,CoilBlank2085,One,Zero,2085,MOD1:Coil2085:Read
+685,xx,CoilBlank2086,One,Zero,2086,MOD1:Coil2086:Read
+686,xx,CoilBlank2087,One,Zero,2087,MOD1:Coil2087:Read
+687,xx,CoilBlank2088,One,Zero,2088,MOD1:Coil2088:Read
+688,xx,CoilBlank2089,One,Zero,2089,MOD1:Coil2089:Read
+689,xx,CoilBlank2090,One,Zero,2090,MOD1:Coil2090:Read
+690,xx,CoilBlank2091,One,Zero,2091,MOD1:Coil2091:Read
+691,xx,CoilBlank2092,One,Zero,2092,MOD1:Coil2092:Read
+692,xx,CoilBlank2093,One,Zero,2093,MOD1:Coil2093:Read
+693,xx,CoilBlank2094,One,Zero,2094,MOD1:Coil2094:Read
+694,xx,CoilBlank2095,One,Zero,2095,MOD1:Coil2095:Read
+695,xx,CoilBlank2096,One,Zero,2096,MOD1:Coil2096:Read
+696,xx,CoilBlank2097,One,Zero,2097,MOD1:Coil2097:Read
+697,xx,CoilBlank2098,One,Zero,2098,MOD1:Coil2098:Read
+698,xx,CoilBlank2099,One,Zero,2099,MOD1:Coil2099:Read
+699,xx,CoilBlank2100,One,Zero,2100,MOD1:Coil2100:Read
+700,xx,CoilBlank2101,One,Zero,2101,MOD1:Coil2101:Read
+701,xx,CoilBlank2102,One,Zero,2102,MOD1:Coil2102:Read
+702,xx,CoilBlank2103,One,Zero,2103,MOD1:Coil2103:Read
+703,xx,CoilBlank2104,One,Zero,2104,MOD1:Coil2104:Read
+704,xx,CoilBlank2105,One,Zero,2105,MOD1:Coil2105:Read
+705,xx,CoilBlank2106,One,Zero,2106,MOD1:Coil2106:Read
+706,xx,CoilBlank2107,One,Zero,2107,MOD1:Coil2107:Read
+707,xx,CoilBlank2108,One,Zero,2108,MOD1:Coil2108:Read
+708,xx,CoilBlank2109,One,Zero,2109,MOD1:Coil2109:Read
+709,xx,CoilBlank2110,One,Zero,2110,MOD1:Coil2110:Read
+710,xx,CoilBlank2111,One,Zero,2111,MOD1:Coil2111:Read
+711,xx,CoilBlank2112,One,Zero,2112,MOD1:Coil2112:Read
+712,xx,CoilBlank2113,One,Zero,2113,MOD1:Coil2113:Read
+713,xx,CoilBlank2114,One,Zero,2114,MOD1:Coil2114:Read
+714,xx,CoilBlank2115,One,Zero,2115,MOD1:Coil2115:Read
+715,xx,CoilBlank2116,One,Zero,2116,MOD1:Coil2116:Read
+716,xx,CoilBlank2117,One,Zero,2117,MOD1:Coil2117:Read
+717,xx,CoilBlank2118,One,Zero,2118,MOD1:Coil2118:Read
+718,xx,CoilBlank2119,One,Zero,2119,MOD1:Coil2119:Read
+719,"BMG Heartbeat OK Status",BMG:HeartbeatOK:Status,One,Zero,2120,MOD1:Coil2120:Read
+720,xx,CoilBlank2121,One,Zero,2121,MOD1:Coil2121:Read
+721,xx,CoilBlank2122,One,Zero,2122,MOD1:Coil2122:Read
+722,xx,CoilBlank2123,One,Zero,2123,MOD1:Coil2123:Read
+723,xx,CoilBlank2124,One,Zero,2124,MOD1:Coil2124:Read
+724,xx,CoilBlank2125,One,Zero,2125,MOD1:Coil2125:Read
+725,xx,CoilBlank2126,One,Zero,2126,MOD1:Coil2126:Read
+726,xx,CoilBlank2127,One,Zero,2127,MOD1:Coil2127:Read
+727,xx,CoilBlank2128,One,Zero,2128,MOD1:Coil2128:Read
+728,xx,CoilBlank2129,One,Zero,2129,MOD1:Coil2129:Read
+729,xx,CoilBlank2130,One,Zero,2130,MOD1:Coil2130:Read
+730,xx,CoilBlank2131,One,Zero,2131,MOD1:Coil2131:Read
+731,xx,CoilBlank2132,One,Zero,2132,MOD1:Coil2132:Read
+732,xx,CoilBlank2133,One,Zero,2133,MOD1:Coil2133:Read
+733,xx,CoilBlank2134,One,Zero,2134,MOD1:Coil2134:Read
+734,xx,CoilBlank2135,One,Zero,2135,MOD1:Coil2135:Read
+735,xx,CoilBlank2136,One,Zero,2136,MOD1:Coil2136:Read
+736,xx,CoilBlank2137,One,Zero,2137,MOD1:Coil2137:Read
+737,xx,CoilBlank2138,One,Zero,2138,MOD1:Coil2138:Read
+738,xx,CoilBlank2139,One,Zero,2139,MOD1:Coil2139:Read
+739,xx,CoilBlank2140,One,Zero,2140,MOD1:Coil2140:Read
+740,xx,CoilBlank2141,One,Zero,2141,MOD1:Coil2141:Read
+741,xx,CoilBlank2142,One,Zero,2142,MOD1:Coil2142:Read
+742,xx,CoilBlank2143,One,Zero,2143,MOD1:Coil2143:Read
+743,xx,CoilBlank2144,One,Zero,2144,MOD1:Coil2144:Read
+744,xx,CoilBlank2145,One,Zero,2145,MOD1:Coil2145:Read
+745,xx,CoilBlank2146,One,Zero,2146,MOD1:Coil2146:Read
+746,xx,CoilBlank2147,One,Zero,2147,MOD1:Coil2147:Read
+747,xx,CoilBlank2148,One,Zero,2148,MOD1:Coil2148:Read
+748,xx,CoilBlank2149,One,Zero,2149,MOD1:Coil2149:Read
+749,xx,CoilBlank2150,One,Zero,2150,MOD1:Coil2150:Read
+750,xx,CoilBlank2151,One,Zero,2151,MOD1:Coil2151:Read
+751,xx,CoilBlank2152,One,Zero,2152,MOD1:Coil2152:Read
+752,xx,CoilBlank2153,One,Zero,2153,MOD1:Coil2153:Read
+753,xx,CoilBlank2154,One,Zero,2154,MOD1:Coil2154:Read
+754,xx,CoilBlank2155,One,Zero,2155,MOD1:Coil2155:Read
+755,xx,CoilBlank2156,One,Zero,2156,MOD1:Coil2156:Read
+756,xx,CoilBlank2157,One,Zero,2157,MOD1:Coil2157:Read
+757,xx,CoilBlank2158,One,Zero,2158,MOD1:Coil2158:Read
+758,xx,CoilBlank2159,One,Zero,2159,MOD1:Coil2159:Read
+759,xx,CoilBlank2160,One,Zero,2160,MOD1:Coil2160:Read
+760,xx,CoilBlank2161,One,Zero,2161,MOD1:Coil2161:Read
+761,xx,CoilBlank2162,One,Zero,2162,MOD1:Coil2162:Read
+762,xx,CoilBlank2163,One,Zero,2163,MOD1:Coil2163:Read
+763,xx,CoilBlank2164,One,Zero,2164,MOD1:Coil2164:Read
+764,xx,CoilBlank2165,One,Zero,2165,MOD1:Coil2165:Read
+765,xx,CoilBlank2166,One,Zero,2166,MOD1:Coil2166:Read
+766,xx,CoilBlank2167,One,Zero,2167,MOD1:Coil2167:Read
+767,xx,CoilBlank2168,One,Zero,2168,MOD1:Coil2168:Read
+768,xx,CoilBlank2169,One,Zero,2169,MOD1:Coil2169:Read
+769,xx,CoilBlank2170,One,Zero,2170,MOD1:Coil2170:Read
+770,xx,CoilBlank2171,One,Zero,2171,MOD1:Coil2171:Read
+771,xx,CoilBlank2172,One,Zero,2172,MOD1:Coil2172:Read
+772,xx,CoilBlank2173,One,Zero,2173,MOD1:Coil2173:Read
+773,xx,CoilBlank2174,One,Zero,2174,MOD1:Coil2174:Read
+774,xx,CoilBlank2175,One,Zero,2175,MOD1:Coil2175:Read
+775,"MC Wdog Pulse -Pos Edge-",MC:WatchDogPulse:PosEdge,One,Zero,2176,MOD1:Coil2176:Read
+776,"PSCC1-6 Wdog Pulse -Pos Edge-",CC:1-6:WatchDogPulse:PosEdge,One,Zero,2177,MOD1:Coil2177:Read
+777,"PSCC7-10 Wdog Pulse -Pos Edge-",CC:7-10:WatchDogPulse:PosEdge,One,Zero,2178,MOD1:Coil2178:Read
+778,"HC A+B Wdog Pulse -Pos Edge-",HC:A-B:WatchDogPulse:PosEdge,One,Zero,2179,MOD1:Coil2179:Read
+779,"HC C+D Wdog Pulse -Pos Edge-",HC:C-D:WatchDogPulse:PosEdge,One,Zero,2180,MOD1:Coil2180:Read
+780,"Source/Extraction Wdog Pulse -Pos Edge-",SE:WatchDogPulse:PosEdge,One,Zero,2181,MOD1:Coil2181:Read
+781,"EMC Wdog Pulse -Pos Edge-",EMC:WatchDogPulse:PosEdge,One,Zero,2182,MOD1:Coil2182:Read
+782,"ISM Wdog Pulse -Pos Edge-",ISM:WatchDogPulse:PosEdge,One,Zero,2183,MOD1:Coil2183:Read
+783,"DEFL Wdog Pulse -Pos Edge-",DEFL:WatchDogPulse:PosEdge,One,Zero,2184,MOD1:Coil2184:Read
+784,"ISM Wdog Pulse -Pos Edge-",ISM:WatchDogPulse:PosEdge,One,Zero,2185,MOD1:Coil2185:Read
+785,"SM01 Wdog Pulse -Pos Edge-",SM01:WatchDogPulse:PosEdge,One,Zero,2186,MOD1:Coil2186:Read
+786,xx,PDPCoil2187,One,Zero,2187,MOD1:Coil2187:Read
+787,"SWM Watchdog Pulse -Pos Edge-",SWM:WatchDogPulse:PosEdge,One,Zero,2188,MOD1:Coil2188:Read
+788,xx,CoilBlank2189,One,Zero,2189,MOD1:Coil2189:Read
+789,xx,CoilBlank2190,One,Zero,2190,MOD1:Coil2190:Read
+790,"IGS WDOG Pulse Pos Edge",IGS:WatchDogPulse:PosEdge,One,Zero,2191,MOD1:Coil2191:Read
+791,"IGS Heartbeat OK",IGS:HeartbeatOK:Status,One,Zero,2192,MOD1:Coil2192:Read
+792,xx,CoilBlank2193,One,Zero,2193,MOD1:Coil2193:Read
+793,xx,CoilBlank2194,One,Zero,2194,MOD1:Coil2194:Read
+794,xx,CoilBlank2195,One,Zero,2195,MOD1:Coil2195:Read
+795,xx,CoilBlank2196,One,Zero,2196,MOD1:Coil2196:Read
+796,xx,CoilBlank2197,One,Zero,2197,MOD1:Coil2197:Read
+797,xx,CoilBlank2198,One,Zero,2198,MOD1:Coil2198:Read
+798,xx,CoilBlank2199,One,Zero,2199,MOD1:Coil2199:Read
+799,"Q23B Heartbeat OK",Q23B:HeartbeatOK:Status,One,Zero,2200,MOD1:Coil2200:Read
+800,xx,CoilBlank2201,One,Zero,2201,MOD1:Coil2201:Read
+801,"Arc Heartbeat OK",Source:HeartbeatOK:Status,One,Zero,2202,MOD1:Coil2202:Read
+802,"Q23A Heartbeat OK",Q23A:HeartbeatOK:Status,One,Zero,2203,MOD1:Coil2203:Read
+803,xx,CoilBlank2204,One,Zero,2204,MOD1:Coil2204:Read
+804,"MC Heartbeat OK",MC:Output:HeartbeatOK:Status,One,Zero,2205,MOD1:Coil2205:Read
+805,"MC OK",MC:SubsystemOK:Status,One,Zero,2206,MOD1:Coil2206:Read
+806,"CC 1-6 OK",CC:1-6:SubsystemOK:Status,One,Zero,2207,MOD1:Coil2207:Read
+807,"CC 1-6 Heartbeat OK",CC:1-6:HeartbeatOK:Status,One,Zero,2208,MOD1:Coil2208:Read
+808,"CC 7-10 Heartbeat OK",CC:7-10:HeartbeatOK:Status,One,Zero,2209,MOD1:Coil2209:Read
+809,"CC 7-10 OK",CC:7-10:SubsystemOK:Status,One,Zero,2210,MOD1:Coil2210:Read
+810,"HC A Heartbeat OK",HC:CoilA:HeartbeatOK:Status,One,Zero,2211,MOD1:Coil2211:Read
+811,"HC B Heartbeat OK",HC:CoilB:HeartbeatOK:Status,One,Zero,2212,MOD1:Coil2212:Read
+812,"HC Coil A+B OK Standby 2",HC:A-B:SubsystemOKSB2:Status,One,Zero,2213,MOD1:Coil2213:Read
+813,"Magnet System OK Standby 2",MAG:SystemOK:Standby2:Status,One,Zero,2214,MOD1:Coil2214:Read
+814,"Magnet System OK Standby 1",MAG:SystemOK:Standby1:Status,One,Zero,2215,MOD1:Coil2215:Read
+815,"ExtrServo Heartbeat OK",ExtrServo:HeartbeatOK:Status,One,Zero,2216,MOD1:Coil2216:Read
+816,"HC Coil C+D OK Standby 2",HC:C-D:SubsystemOKSB2:Status,One,Zero,2217,MOD1:Coil2217:Read
+817,"All PS to FC1 Ready",CYC:AllPStoFC1Ready:Status,One,Zero,2218,MOD1:Coil2218:Read
+818,"No RF Running Problem",RF:NoRunningProblem:Status,One,Zero,2219,MOD1:Coil2219:Read
+819,"EMC Heartbeat OK",EMC:HeartbeatOK:Status,One,Zero,2220,MOD1:Coil2220:Read
+820,"ISM Heartbeat OK",ISM:HeartbeatOK:Status,One,Zero,2221,MOD1:Coil2221:Read
+821,"RF DC System OK Standby 2",RF:DCSystemOK:Standby2:Status,One,Zero,2222,MOD1:Coil2222:Read
+822,"RF DC System OK Standby 1",RF:DCSystemOK:Standby1:Status,One,Zero,2223,MOD1:Coil2223:Read
+823,"Ion Source System OK Standby 2",Source:SystemOK:Standby2:Status,One,Zero,2224,MOD1:Coil2224:Read
+824,"Ion Source System OK Standby 1",Source:SystemOK:Standby1:Status,One,Zero,2225,MOD1:Coil2225:Read
+825,"Extraction System OK Standby 2",EXTR:SystemOK:Standby2:Status,One,Zero,2226,MOD1:Coil2226:Read
+826,"Extraction System OK Standby 1",EXTR:SystemOK:Standby1:Status,One,Zero,2227,MOD1:Coil2227:Read
+827,"Diag System OK Standby 2",DIAG:SystemOK:Standby2:Status,One,Zero,2228,MOD1:Coil2228:Read
+828,"Diag System OK Standby 1",DIAG:SystemOK:Standby1:Status,One,Zero,2229,MOD1:Coil2229:Read
+829,"DEFL Heartbeat OK",DEFL:HeartbeatOK:Status,One,Zero,2230,MOD1:Coil2230:Read
+830,"SM01 Heartbeat OK",SM01:HeartbeatOK:Status,One,Zero,2231,MOD1:Coil2231:Read
+831,"Q1 Heartbeat OK",Q1:HeartbeatOK:Status,One,Zero,2232,MOD1:Coil2232:Read
+832,"SM01 OK",SM01:SubsystemOK:Status,One,Zero,2233,MOD1:Coil2233:Read
+833,"Q1 OK SB2",Q1:SubsystemOKSB2:Status,One,Zero,2234,MOD1:Coil2234:Read
+834,"QG Heartbeat OK",QG:HeartbeatOK:Status,One,Zero,2235,MOD1:Coil2235:Read
+835,"Defl HV Supply OK",DEFL:SubsystemOK:Status,One,Zero,2236,MOD1:Coil2236:Read
+836,"EMC OK",EMC:SubsystemOK:Status,One,Zero,2237,MOD1:Coil2237:Read
+837,"ISM OK",ISM:SubsystemOK:Status,One,Zero,2238,MOD1:Coil2238:Read
+838,"SM23A OK To Standby 2",SM23A:SubsystemOKSB2:Status,One,Zero,2239,MOD1:Coil2239:Read
+839,"Extractor Servos OK",EXTRServos:SubsystemOK:Status,One,Zero,2240,MOD1:Coil2240:Read
+840,"MC Start Timer Output",MC:StartTimer:Output,One,Zero,2241,MOD1:Coil2241:Read
+841,"CC 1-6 Start Timer Output",CC:1-6:StartTimer:Output,One,Zero,2242,MOD1:Coil2242:Read
+842,"CC 7-10 Start Timer Output",CC:7-10:StartTimer:Output,One,Zero,2243,MOD1:Coil2243:Read
+843,"HC A Start Timer Output",HC:A:StartTimer:Output,One,Zero,2244,MOD1:Coil2244:Read
+844,"HC B Start Timer Output",HC:B:StartTimer:Output,One,Zero,2245,MOD1:Coil2245:Read
+845,"HC C Start Timer Output",HC:C:StartTimer:Output,One,Zero,2246,MOD1:Coil2246:Read
+846,"HC D Start Timer Output",HC:D:StartTimer:Output,One,Zero,2247,MOD1:Coil2247:Read
+847,"EMC Start Timer Output",EMC:StartTimer:Output,One,Zero,2248,MOD1:Coil2248:Read
+848,"Reset Extraction System",EXT:Reset,One,Zero,2249,MOD1:Coil2249:Read
+849,"MC Reset Pulse Timer Output",MC:Reset:PulseTimer:Output,One,Zero,2250,MOD1:Coil2250:Read
+850,"HC C Heartbeat OK",HC:CoilC:HeartbeatOK:Status,One,Zero,2251,MOD1:Coil2251:Read
+851,"HC D Heartbeat OK",HC:CoilD:HeartbeatOK:Status,One,Zero,2252,MOD1:Coil2252:Read
+852,"GCC OK to Standby 2",GCC:SubsystemOKSB2:Status,One,Zero,2253,MOD1:Coil2253:Read
+853,"HC Coil D OK",HC:CoilD:SubsystemOK:Status,One,Zero,2254,MOD1:Coil2254:Read
+854,"IGS OK to SB 2",IGS:SubsystemOKSB2:Status,One,Zero,2255,MOD1:Coil2255:Read
+855,"CC Reset Pulse Timer Output",CC:Reset:PulseTimer:Output,One,Zero,2256,MOD1:Coil2256:Read
+856,"DEFL Entr Start Timer Output",DEFL:Entr:StartTimer:Output,One,Zero,2257,MOD1:Coil2257:Read
+857,"DEFL Exit Start Timer Output",DEFL:Exit:StartTimer:Output,One,Zero,2258,MOD1:Coil2258:Read
+858,"EMC Exit SV Start Timer Output",EMC:ExitSV:StartTimer:Output,One,Zero,2259,MOD1:Coil2259:Read
+859,"Defl Probe Start Timer Output",DEFL:Probe:StartTimer:Output,One,Zero,2260,MOD1:Coil2260:Read
+860,"Gas Flow SV Start Timer Output",SOURCE:GasFlowSV:StartTimer:Output,One,Zero,2261,MOD1:Coil2261:Read
+861,"Any Single System 1-7 PB Pushed",CYC:System1-7PB:Pushed,One,Zero,2262,MOD1:Coil2262:Read
+862,"Any Single System 8-14 PB Pushed",CYC:System8-14PB:Pushed,One,Zero,2263,MOD1:Coil2263:Read
+863,"Any Single System 15+ PB Pushed",CYC:System15+PB:Pushed,One,Zero,2264,MOD1:Coil2264:Read
+864,"Any Single SubSystem PB Pushed",CYC:SubSystemPB:Pushed,One,Zero,2265,MOD1:Coil2265:Read
+865,"Pulse When New System Display Selected",CYC:NewSystemDisplaySelected:Pulse,One,Zero,2266,MOD1:Coil2266:Read
+866,"Subsystem Button Timer Output",CYC:SubSystemButtonTimer:Output,One,Zero,2267,MOD1:Coil2267:Read
+867,"Any System Display Requestion",CCC:AnySystemDisplay:Request,One,Zero,2268,MOD1:Coil2268:Read
+868,"Any Display clicked at Status Display",CCC:AnyDisplayStatusDisplay,One,Zero,2269,MOD1:Coil2269:Read
+869,"Magnet System Selected",CCC:MagSystemSelected:Status,One,Zero,2270,MOD1:Coil2270:Read
+870,"RF DC System Selected",CCC:RFDCSystemSelected:Status,One,Zero,2271,MOD1:Coil2271:Read
+871,"Ion Source System Selected",CCC:IonSourceSystem:Selected:Status,One,Zero,2272,MOD1:Coil2272:Read
+872,"Extraction System Selected",CCC:ExtractionSystemSelected:Status,One,Zero,2273,MOD1:Coil2273:Read
+873,"Diag System Selected",CCC:DiagSystemSelected:Status,One,Zero,2274,MOD1:Coil2274:Read
+874,"Vacuum System Selected",CCC:VacSystemSelected:Status,One,Zero,2275,MOD1:Coil2275:Read
+875,"BeamLine to FC1 Selected",CCC:BLtoFC1Selected:Status,One,Zero,2276,MOD1:Coil2276:Read
+876,"FC1 to Target Selected",CCC:FC1toTargetSelected:Status,One,Zero,2277,MOD1:Coil2277:Read
+877,"Cooling System Selected",CCC:CoolingSystemSelected:Status,One,Zero,2278,MOD1:Coil2278:Read
+878,"Iso Therapy System Selected",CCC:IsoTherapySystemSelected:Status,One,Zero,2279,MOD1:Coil2279:Read
+879,"Spare A System Selected",CCC:SpareASystemSelected:Status,One,Zero,2280,MOD1:Coil2280:Read
+880,"Spare B System Selected",CCC:SpareBSystemSelected:Status,One,Zero,2281,MOD1:Coil2281:Read
+881,"Summary Screen Selected",CCC:SummaryScreenSelected:Status,One,Zero,2282,MOD1:Coil2282:Read
+882,"RF AC System Selected",CCC:RFACSystemSelected:Status,One,Zero,2283,MOD1:Coil2283:Read
+883,"Vault Safety Selected",CCC:VaultSafetySelected:Status,One,Zero,2284,MOD1:Coil2284:Read
+884,"Room A or B Safety Selected",CCC:RoomAorBSafetySelected:Status,One,Zero,2285,MOD1:Coil2285:Read
+885,"Spare Display Selected",CCC:SpareDisplaySelected:Status,One,Zero,2286,MOD1:Coil2286:Read
+886,"Defl Probe Internal PB Timer",DeflProbe:InternalPB:Timer,One,Zero,2287,MOD1:Coil2287:Read
+887,"Defl Probe Internal Select Timer",DeflProbe:Internal:PBPushed,One,Zero,2288,MOD1:Coil2288:Read
+888,"Defl Probe External PB Timer",DeflProbe:ExternalPB:Timer,One,Zero,2289,MOD1:Coil2289:Read
+889,"Defl Probe External Select Timer",DeflProbe:External:PBPushed,One,Zero,2290,MOD1:Coil2290:Read
+890,"Defl Probe Out Position PB Timer",DeflProbe:ProbeOutPB:Timer,One,Zero,2291,MOD1:Coil2291:Read
+891,"Defl Probe Out Select Timer",DeflProbe:Out:PBPushed,One,Zero,2292,MOD1:Coil2292:Read
+892,"Defl Probe Int achieved Timer",DeflProbe:IntAch:Timer,One,Zero,2293,MOD1:Coil2293:Read
+893,"Defl Probe Int requested",DeflProbe:IntRequested:Status,One,Zero,2294,MOD1:Coil2294:Read
+894,"Defl Probe Ext Achieved Timer",DeflProbe:ExtAch:Timer,One,Zero,2295,MOD1:Coil2295:Read
+895,"Defl Probe Ext Requested",DeflProbe:ExtRequested:Status,One,Zero,2296,MOD1:Coil2296:Read
+896,"Defl Probe Out Achieved Timer",DeflProbe:OutAch:Timer,One,Zero,2297,MOD1:Coil2297:Read
+897,"Defl Probe Out Position Requested",DeflProbe:Out:Requested,One,Zero,2298,MOD1:Coil2298:Read
+898,xx,CoilBlank2299,One,Zero,2299,MOD1:Coil2299:Read
+899,xx,CoilBlank2300,One,Zero,2300,MOD1:Coil2300:Read
+900,"Main Coil OK -SB1-",MC:SubsystemOKSB1:Status,One,Zero,2301,MOD1:Coil2301:Read
+901,"All Circ Coils OK -SB1-",CC:SubsystemOKSB1:Status,One,Zero,2302,MOD1:Coil2302:Read
+902,"HC A+B OK -SB1-",HC:A-B:SubsystemOKSB1:Status,One,Zero,2303,MOD1:Coil2303:Read
+903,"HC C+D OK -SB1-",HC:C-D:SubsystemOKSB1:Status,One,Zero,2304,MOD1:Coil2304:Read
+904,"Ion Source PSARC OK -SB1-",Source:Arc:SubsystemOKSB1:Status,One,Zero,2305,MOD1:Coil2305:Read
+905,"PSHV OK -SB1-",PSHV:SubsystemOKSB1:Status,One,Zero,2306,MOD1:Coil2306:Read
+906,"EMC OK -SB1-",EMC:SubsystemOKSB1:Status,One,Zero,2307,MOD1:Coil2307:Read
+907,"ISM OK -SB1-",ISM:SubsystemOKSB1:Status,One,Zero,2308,MOD1:Coil2308:Read
+908,"SM01 OK -SB1-",SM01:SubsystemOKSB1:Staus,One,Zero,2309,MOD1:Coil2309:Read
+909,"Q1 OK -SB1-",Q1:SubsystemOKSB1:Status,One,Zero,2310,MOD1:Coil2310:Read
+910,xx,CoilBlank2311,One,Zero,2311,MOD1:Coil2311:Read
+911,xx,CoilBlank2312,One,Zero,2312,MOD1:Coil2312:Read
+912,xx,CoilBlank2313,One,Zero,2313,MOD1:Coil2313:Read
+913,xx,CoilBlank2314,One,Zero,2314,MOD1:Coil2314:Read
+914,"SM23A OK To Standby 1",SM23A:SubsystemOKSB1:Status,One,Zero,2315,MOD1:Coil2315:Read
+915,"GCC OK To Standby 1",GCC:SubsystemOKSB1:Status,One,Zero,2316,MOD1:Coil2316:Read
+916,"BMG OK To SB1",BMG:SubsystemOKSB1:Status,One,Zero,2317,MOD1:Coil2317:Read
+917,"Beamline C OK To SB1",BeamlineC:OKtoSB1:Status,One,Zero,2318,MOD1:Coil2318:Read
+918,xx,CoilBlank2319,One,Zero,2319,MOD1:Coil2319:Read
+919,"Beamline PS TO FC1 OK -SB2-",CYC:PStoFC1OK:Status,One,Zero,2320,MOD1:Coil2320:Read
+920,xx,CoilBlank2321,One,Zero,2321,MOD1:Coil2321:Read
+921,xx,CoilBlank2322,One,Zero,2322,MOD1:Coil2322:Read
+922,xx,CoilBlank2323,One,Zero,2323,MOD1:Coil2323:Read
+923,"BCAG OK SB2",BCAG:SubsystemOKSB2:Status,One,Zero,2324,MOD1:Coil2324:Read
+924,xx,CoilBlank2325,One,Zero,2325,MOD1:Coil2325:Read
+925,"BCAG HEARTBEAT OK",BCAG:HeartbeatOK:Status,One,Zero,2326,MOD1:Coil2326:Read
+926,"BMG OK to SB2",BMG:SubsystemOKSB2:Status,One,Zero,2327,MOD1:Coil2327:Read
+927,"Beamline C OK to SB2",BeamlineC:OKtoSB2:Status,One,Zero,2328,MOD1:Coil2328:Read
+928,"Reset Beamline A",LineA:Reset:CMD,One,Zero,2329,MOD1:Coil2329:Read
+929,"SWM Start Timer Output",SWM:StartTimer:Output,One,Zero,2330,MOD1:Coil2330:Read
+930,"SWM Process Watchdog OK",SWM:HeartbeatOK:Status,One,Zero,2331,MOD1:Coil2331:Read
+931,"SM23A Heartbeat OK",SM23A:HeartbeatOK:Status,One,Zero,2332,MOD1:Coil2332:Read
+932,"GANTRY CORR HEARTBEAT OK",GCC:HeartbeatOK:Status,One,Zero,2333,MOD1:Coil2333:Read
+933,"SWM OK To SB1",SWM:SubsystemOKSB1:Status,One,Zero,2334,MOD1:Coil2334:Read
+934,"SWM OK To SB2",SWM:SubsystemOKSB2:Status,One,Zero,2335,MOD1:Coil2335:Read
+935,"GDP OK To SB1",GDP:SubsystemOKSB1:Status,One,Zero,2336,MOD1:Coil2336:Read
+936,"GDP OK To SB2",GDP:SubsystemOKSB2:Status,One,Zero,2337,MOD1:Coil2337:Read
+937,"GDP Heartbeat OK",GDP:HeartbeatOK:Status,One,Zero,2338,MOD1:Coil2338:Read
+938,"Reset Gantry",Gantry:Reset:CMD,One,Zero,2339,MOD1:Coil2339:Read
+939,"Reset Line B",LineB:Reset:CMD,One,Zero,2340,MOD1:Coil2340:Read
+940,"Reset Line C",LineC:Reset:CMD,One,Zero,2341,MOD1:Coil2341:Read
+941,xx,CoilBlank2342,One,Zero,2342,MOD1:Coil2342:Read
+942,xx,CoilBlank2343,One,Zero,2343,MOD1:Coil2343:Read
+943,xx,CoilBlank2344,One,Zero,2344,MOD1:Coil2344:Read
+944,xx,CoilBlank2345,One,Zero,2345,MOD1:Coil2345:Read
+945,xx,CoilBlank2346,One,Zero,2346,MOD1:Coil2346:Read
+946,xx,CoilBlank2347,One,Zero,2347,MOD1:Coil2347:Read
+947,xx,CoilBlank2348,One,Zero,2348,MOD1:Coil2348:Read
+948,xx,CoilBlank2349,One,Zero,2349,MOD1:Coil2349:Read
+949,xx,CoilBlank2350,One,Zero,2350,MOD1:Coil2350:Read
+950,xx,CoilBlank2351,One,Zero,2351,MOD1:Coil2351:Read
+951,"QG OK SB1",QG:SubsystemOKSB1:Status,One,Zero,2352,MOD1:Coil2352:Read
+952,"Q2A OK SB1",Q23A:Q2A:SubsystemOKSB1:Status,One,Zero,2353,MOD1:Coil2353:Read
+953,"Q3A OK SB1",Q23A:Q3A:SubsystemOKSB1:Status,One,Zero,2354,MOD1:Coil2354:Read
+954,"Q2B OK SB1",Q23B:Q2B:SubsystemOKSB1:Status,One,Zero,2355,MOD1:Coil2355:Read
+955,"Q3B OK SB1",Q23B:Q3B:SubsystemOKSB1:Status,One,Zero,2356,MOD1:Coil2356:Read
+956,"QG OK SB2",QG:SubsystemOKSB2:Status,One,Zero,2357,MOD1:Coil2357:Read
+957,"Q2A OK SB2",Q23A:Q2A:SubsystemOKSB2:Status,One,Zero,2358,MOD1:Coil2358:Read
+958,"Q3A OK SB2",Q23A:Q3A:SubsystemOKSB2:Status,One,Zero,2359,MOD1:Coil2359:Read
+959,"Q2B OK SB2",Q23B:Q2B:SubsystemOKSB2:Status,One,Zero,2360,MOD1:Coil2360:Read
+960,"Q3B OK SB2",Q23B:Q3B:SubsystemOKSB2:Status,One,Zero,2361,MOD1:Coil2361:Read
+961,"IGS OK to SB 1",IGS:SubsystemOKSB1:Status,One,Zero,2362,MOD1:Coil2362:Read
+962,xx,CoilBlank2363,One,Zero,2363,MOD1:Coil2363:Read
+963,xx,CoilBlank2364,One,Zero,2364,MOD1:Coil2364:Read
+964,xx,CoilBlank2365,One,Zero,2365,MOD1:Coil2365:Read
+965,xx,CoilBlank2366,One,Zero,2366,MOD1:Coil2366:Read
+966,xx,CoilBlank2367,One,Zero,2367,MOD1:Coil2367:Read
+967,xx,CoilBlank2368,One,Zero,2368,MOD1:Coil2368:Read
+968,xx,CoilBlank2369,One,Zero,2369,MOD1:Coil2369:Read
+969,xx,CoilBlank2370,One,Zero,2370,MOD1:Coil2370:Read
+970,xx,CoilBlank2371,One,Zero,2371,MOD1:Coil2371:Read
+971,xx,CoilBlank2372,One,Zero,2372,MOD1:Coil2372:Read
+972,xx,CoilBlank2373,One,Zero,2373,MOD1:Coil2373:Read
+973,xx,CoilBlank2374,One,Zero,2374,MOD1:Coil2374:Read
+974,xx,CoilBlank2375,One,Zero,2375,MOD1:Coil2375:Read
+975,xx,CoilBlank2376,One,Zero,2376,MOD1:Coil2376:Read
+976,xx,CoilBlank2377,One,Zero,2377,MOD1:Coil2377:Read
+977,xx,CoilBlank2378,One,Zero,2378,MOD1:Coil2378:Read
+978,xx,CoilBlank2379,One,Zero,2379,MOD1:Coil2379:Read
+979,xx,CoilBlank2380,One,Zero,2380,MOD1:Coil2380:Read
+980,xx,CoilBlank2381,One,Zero,2381,MOD1:Coil2381:Read
+981,xx,CoilBlank2382,One,Zero,2382,MOD1:Coil2382:Read
+982,xx,CoilBlank2383,One,Zero,2383,MOD1:Coil2383:Read
+983,xx,CoilBlank2384,One,Zero,2384,MOD1:Coil2384:Read
+984,"MC Off Command",CoilBlank2385,One,Zero,2385,MOD1:Coil2385:Read
+985,"MC On Command",CoilBlank2386,One,Zero,2386,MOD1:Coil2386:Read
+986,"MC Interlock Reset",CoilBlank2387,One,Zero,2387,MOD1:Coil2387:Read
+987,xx,CoilBlank2388,One,Zero,2388,MOD1:Coil2388:Read
+988,"MC No Fault No Error",CoilBlank2389,One,Zero,2389,MOD1:Coil2389:Read
+989,"MC Process Heartbeat",CoilBlank2390,One,Zero,2390,MOD1:Coil2390:Read
+990,"MC Initialize Complete",CoilBlank2391,One,Zero,2391,MOD1:Coil2391:Read
+991,xx,CoilBlank2392,One,Zero,2392,MOD1:Coil2392:Read
+992,"CC 1-6 Off Command",CoilBlank2393,One,Zero,2393,MOD1:Coil2393:Read
+993,xx,CoilBlank2394,One,Zero,2394,MOD1:Coil2394:Read
+994,xx,CoilBlank2395,One,Zero,2395,MOD1:Coil2395:Read
+995,xx,CoilBlank2396,One,Zero,2396,MOD1:Coil2396:Read
+996,xx,CoilBlank2397,One,Zero,2397,MOD1:Coil2397:Read
+997,xx,CoilBlank2398,One,Zero,2398,MOD1:Coil2398:Read
+998,xx,CoilBlank2399,One,Zero,2399,MOD1:Coil2399:Read
+999,xx,CoilBlank2400,One,Zero,2400,MOD1:Coil2400:Read
+1000,xx,CoilBlank2401,One,Zero,2401,MOD1:Coil2401:Read
+1001,xx,CoilBlank2402,One,Zero,2402,MOD1:Coil2402:Read
+1002,xx,CoilBlank2403,One,Zero,2403,MOD1:Coil2403:Read
+1003,xx,CoilBlank2404,One,Zero,2404,MOD1:Coil2404:Read
+1004,xx,CoilBlank2405,One,Zero,2405,MOD1:Coil2405:Read
+1005,xx,CoilBlank2406,One,Zero,2406,MOD1:Coil2406:Read
+1006,xx,CoilBlank2407,One,Zero,2407,MOD1:Coil2407:Read
+1007,xx,CoilBlank2408,One,Zero,2408,MOD1:Coil2408:Read
+1008,xx,CoilBlank2409,One,Zero,2409,MOD1:Coil2409:Read
+1009,xx,CoilBlank2410,One,Zero,2410,MOD1:Coil2410:Read
+1010,xx,CoilBlank2411,One,Zero,2411,MOD1:Coil2411:Read
+1011,xx,CoilBlank2412,One,Zero,2412,MOD1:Coil2412:Read
+1012,xx,CoilBlank2413,One,Zero,2413,MOD1:Coil2413:Read
+1013,xx,CoilBlank2414,One,Zero,2414,MOD1:Coil2414:Read
+1014,xx,CoilBlank2415,One,Zero,2415,MOD1:Coil2415:Read
+1015,xx,CoilBlank2416,One,Zero,2416,MOD1:Coil2416:Read
+1016,xx,CoilBlank2417,One,Zero,2417,MOD1:Coil2417:Read
+1017,xx,CoilBlank2418,One,Zero,2418,MOD1:Coil2418:Read
+1018,xx,CoilBlank2419,One,Zero,2419,MOD1:Coil2419:Read
+1019,xx,CoilBlank2420,One,Zero,2420,MOD1:Coil2420:Read
+1020,xx,CoilBlank2421,One,Zero,2421,MOD1:Coil2421:Read
+1021,xx,CoilBlank2422,One,Zero,2422,MOD1:Coil2422:Read
+1022,xx,CoilBlank2423,One,Zero,2423,MOD1:Coil2423:Read
+1023,xx,CoilBlank2424,One,Zero,2424,MOD1:Coil2424:Read
+1024,xx,CoilBlank2425,One,Zero,2425,MOD1:Coil2425:Read
+1025,xx,CoilBlank2426,One,Zero,2426,MOD1:Coil2426:Read
+1026,xx,CoilBlank2427,One,Zero,2427,MOD1:Coil2427:Read
+1027,xx,CoilBlank2428,One,Zero,2428,MOD1:Coil2428:Read
+1028,xx,CoilBlank2429,One,Zero,2429,MOD1:Coil2429:Read
+1029,xx,CoilBlank2430,One,Zero,2430,MOD1:Coil2430:Read
+1030,xx,CoilBlank2431,One,Zero,2431,MOD1:Coil2431:Read
+1031,xx,CoilBlank2432,One,Zero,2432,MOD1:Coil2432:Read
+1032,xx,CoilBlank2433,One,Zero,2433,MOD1:Coil2433:Read
+1033,xx,CoilBlank2434,One,Zero,2434,MOD1:Coil2434:Read
+1034,xx,CoilBlank2435,One,Zero,2435,MOD1:Coil2435:Read
+1035,xx,CoilBlank2436,One,Zero,2436,MOD1:Coil2436:Read
+1036,xx,CoilBlank2437,One,Zero,2437,MOD1:Coil2437:Read
+1037,xx,CoilBlank2438,One,Zero,2438,MOD1:Coil2438:Read
+1038,xx,CoilBlank2439,One,Zero,2439,MOD1:Coil2439:Read
+1039,xx,CoilBlank2440,One,Zero,2440,MOD1:Coil2440:Read
+1040,xx,CoilBlank2441,One,Zero,2441,MOD1:Coil2441:Read
+1041,xx,CoilBlank2442,One,Zero,2442,MOD1:Coil2442:Read
+1042,xx,CoilBlank2443,One,Zero,2443,MOD1:Coil2443:Read
+1043,xx,CoilBlank2444,One,Zero,2444,MOD1:Coil2444:Read
+1044,xx,CoilBlank2445,One,Zero,2445,MOD1:Coil2445:Read
+1045,xx,CoilBlank2446,One,Zero,2446,MOD1:Coil2446:Read
+1046,xx,CoilBlank2447,One,Zero,2447,MOD1:Coil2447:Read
+1047,xx,CoilBlank2448,One,Zero,2448,MOD1:Coil2448:Read
+1048,xx,CoilBlank2449,One,Zero,2449,MOD1:Coil2449:Read
+1049,xx,CoilBlank2450,One,Zero,2450,MOD1:Coil2450:Read
+1050,xx,CoilBlank2451,One,Zero,2451,MOD1:Coil2451:Read
+1051,xx,CoilBlank2452,One,Zero,2452,MOD1:Coil2452:Read
+1052,xx,CoilBlank2453,One,Zero,2453,MOD1:Coil2453:Read
+1053,xx,CoilBlank2454,One,Zero,2454,MOD1:Coil2454:Read
+1054,xx,CoilBlank2455,One,Zero,2455,MOD1:Coil2455:Read
+1055,xx,CoilBlank2456,One,Zero,2456,MOD1:Coil2456:Read
+1056,xx,CoilBlank2457,One,Zero,2457,MOD1:Coil2457:Read
+1057,xx,CoilBlank2458,One,Zero,2458,MOD1:Coil2458:Read
+1058,xx,CoilBlank2459,One,Zero,2459,MOD1:Coil2459:Read
+1059,xx,CoilBlank2460,One,Zero,2460,MOD1:Coil2460:Read
+1060,xx,CoilBlank2461,One,Zero,2461,MOD1:Coil2461:Read
+1061,xx,CoilBlank2462,One,Zero,2462,MOD1:Coil2462:Read
+1062,xx,CoilBlank2463,One,Zero,2463,MOD1:Coil2463:Read
+1063,xx,CoilBlank2464,One,Zero,2464,MOD1:Coil2464:Read
+1064,xx,CoilBlank2465,One,Zero,2465,MOD1:Coil2465:Read
+1065,xx,CoilBlank2466,One,Zero,2466,MOD1:Coil2466:Read
+1066,xx,CoilBlank2467,One,Zero,2467,MOD1:Coil2467:Read
+1067,xx,CoilBlank2468,One,Zero,2468,MOD1:Coil2468:Read
+1068,xx,CoilBlank2469,One,Zero,2469,MOD1:Coil2469:Read
+1069,xx,CoilBlank2470,One,Zero,2470,MOD1:Coil2470:Read
+1070,xx,CoilBlank2471,One,Zero,2471,MOD1:Coil2471:Read
+1071,xx,CoilBlank2472,One,Zero,2472,MOD1:Coil2472:Read
+1072,xx,CoilBlank2473,One,Zero,2473,MOD1:Coil2473:Read
+1073,xx,CoilBlank2474,One,Zero,2474,MOD1:Coil2474:Read
+1074,xx,CoilBlank2475,One,Zero,2475,MOD1:Coil2475:Read
+1075,xx,CoilBlank2476,One,Zero,2476,MOD1:Coil2476:Read
+1076,xx,CoilBlank2477,One,Zero,2477,MOD1:Coil2477:Read
+1077,xx,CoilBlank2478,One,Zero,2478,MOD1:Coil2478:Read
+1078,xx,CoilBlank2479,One,Zero,2479,MOD1:Coil2479:Read
+1079,xx,CoilBlank2480,One,Zero,2480,MOD1:Coil2480:Read
+1080,xx,CoilBlank2481,One,Zero,2481,MOD1:Coil2481:Read
+1081,xx,CoilBlank2482,One,Zero,2482,MOD1:Coil2482:Read
+1082,xx,CoilBlank2483,One,Zero,2483,MOD1:Coil2483:Read
+1083,xx,CoilBlank2484,One,Zero,2484,MOD1:Coil2484:Read
+1084,xx,CoilBlank2485,One,Zero,2485,MOD1:Coil2485:Read
+1085,xx,CoilBlank2486,One,Zero,2486,MOD1:Coil2486:Read
+1086,xx,CoilBlank2487,One,Zero,2487,MOD1:Coil2487:Read
+1087,xx,CoilBlank2488,One,Zero,2488,MOD1:Coil2488:Read
+1088,xx,CoilBlank2489,One,Zero,2489,MOD1:Coil2489:Read
+1089,xx,CoilBlank2490,One,Zero,2490,MOD1:Coil2490:Read
+1090,xx,CoilBlank2491,One,Zero,2491,MOD1:Coil2491:Read
+1091,xx,CoilBlank2492,One,Zero,2492,MOD1:Coil2492:Read
+1092,xx,CoilBlank2493,One,Zero,2493,MOD1:Coil2493:Read
+1093,xx,CoilBlank2494,One,Zero,2494,MOD1:Coil2494:Read
+1094,xx,CoilBlank2495,One,Zero,2495,MOD1:Coil2495:Read
+1095,xx,CoilBlank2496,One,Zero,2496,MOD1:Coil2496:Read
+1096,xx,CoilBlank2497,One,Zero,2497,MOD1:Coil2497:Read
+1097,xx,CoilBlank2498,One,Zero,2498,MOD1:Coil2498:Read
+1098,xx,CoilBlank2499,One,Zero,2499,MOD1:Coil2499:Read
+1099,xx,CoilBlank2500,One,Zero,2500,MOD1:Coil2500:Read
+1100,xx,CoilBlank2501,One,Zero,2501,MOD1:Coil2501:Read
+1101,xx,CoilBlank2502,One,Zero,2502,MOD1:Coil2502:Read
+1102,xx,CoilBlank2503,One,Zero,2503,MOD1:Coil2503:Read
+1103,xx,CoilBlank2504,One,Zero,2504,MOD1:Coil2504:Read
+1104,xx,CoilBlank2505,One,Zero,2505,MOD1:Coil2505:Read
+1105,xx,CoilBlank2506,One,Zero,2506,MOD1:Coil2506:Read
+1106,xx,CoilBlank2507,One,Zero,2507,MOD1:Coil2507:Read
+1107,xx,CoilBlank2508,One,Zero,2508,MOD1:Coil2508:Read
+1108,xx,CoilBlank2509,One,Zero,2509,MOD1:Coil2509:Read
+1109,xx,CoilBlank2510,One,Zero,2510,MOD1:Coil2510:Read
+1110,xx,CoilBlank2511,One,Zero,2511,MOD1:Coil2511:Read
+1111,xx,CoilBlank2512,One,Zero,2512,MOD1:Coil2512:Read
+1112,xx,CoilBlank2513,One,Zero,2513,MOD1:Coil2513:Read
+1113,xx,CoilBlank2514,One,Zero,2514,MOD1:Coil2514:Read
+1114,xx,CoilBlank2515,One,Zero,2515,MOD1:Coil2515:Read
+1115,xx,CoilBlank2516,One,Zero,2516,MOD1:Coil2516:Read
+1116,xx,CoilBlank2517,One,Zero,2517,MOD1:Coil2517:Read
+1117,xx,CoilBlank2518,One,Zero,2518,MOD1:Coil2518:Read
+1118,xx,CoilBlank2519,One,Zero,2519,MOD1:Coil2519:Read
+1119,xx,CoilBlank2520,One,Zero,2520,MOD1:Coil2520:Read
+1120,xx,CoilBlank2521,One,Zero,2521,MOD1:Coil2521:Read
+1121,xx,CoilBlank2522,One,Zero,2522,MOD1:Coil2522:Read
+1122,xx,CoilBlank2523,One,Zero,2523,MOD1:Coil2523:Read
+1123,xx,CoilBlank2524,One,Zero,2524,MOD1:Coil2524:Read
+1124,xx,CoilBlank2525,One,Zero,2525,MOD1:Coil2525:Read
+1125,xx,CoilBlank2526,One,Zero,2526,MOD1:Coil2526:Read
+1126,xx,CoilBlank2527,One,Zero,2527,MOD1:Coil2527:Read
+1127,xx,CoilBlank2528,One,Zero,2528,MOD1:Coil2528:Read
+1128,xx,CoilBlank2529,One,Zero,2529,MOD1:Coil2529:Read
+1129,xx,CoilBlank2530,One,Zero,2530,MOD1:Coil2530:Read
+1130,xx,CoilBlank2531,One,Zero,2531,MOD1:Coil2531:Read
+1131,xx,CoilBlank2532,One,Zero,2532,MOD1:Coil2532:Read
+1132,xx,CoilBlank2533,One,Zero,2533,MOD1:Coil2533:Read
+1133,xx,CoilBlank2534,One,Zero,2534,MOD1:Coil2534:Read
+1134,xx,CoilBlank2535,One,Zero,2535,MOD1:Coil2535:Read
+1135,xx,CoilBlank2536,One,Zero,2536,MOD1:Coil2536:Read
+1136,xx,CoilBlank2537,One,Zero,2537,MOD1:Coil2537:Read
+1137,xx,CoilBlank2538,One,Zero,2538,MOD1:Coil2538:Read
+1138,xx,CoilBlank2539,One,Zero,2539,MOD1:Coil2539:Read
+1139,xx,CoilBlank2540,One,Zero,2540,MOD1:Coil2540:Read
+1140,xx,CoilBlank2541,One,Zero,2541,MOD1:Coil2541:Read
+1141,xx,CoilBlank2542,One,Zero,2542,MOD1:Coil2542:Read
+1142,xx,CoilBlank2543,One,Zero,2543,MOD1:Coil2543:Read
+1143,xx,CoilBlank2544,One,Zero,2544,MOD1:Coil2544:Read
+1144,xx,CoilBlank2545,One,Zero,2545,MOD1:Coil2545:Read
+1145,xx,CoilBlank2546,One,Zero,2546,MOD1:Coil2546:Read
+1146,xx,CoilBlank2547,One,Zero,2547,MOD1:Coil2547:Read
+1147,xx,CoilBlank2548,One,Zero,2548,MOD1:Coil2548:Read
+1148,xx,CoilBlank2549,One,Zero,2549,MOD1:Coil2549:Read
+1149,xx,CoilBlank2550,One,Zero,2550,MOD1:Coil2550:Read
+1150,xx,CoilBlank2551,One,Zero,2551,MOD1:Coil2551:Read
+1151,xx,CoilBlank2552,One,Zero,2552,MOD1:Coil2552:Read
+1152,xx,CoilBlank2553,One,Zero,2553,MOD1:Coil2553:Read
+1153,xx,CoilBlank2554,One,Zero,2554,MOD1:Coil2554:Read
+1154,xx,CoilBlank2555,One,Zero,2555,MOD1:Coil2555:Read
+1155,xx,CoilBlank2556,One,Zero,2556,MOD1:Coil2556:Read
+1156,xx,CoilBlank2557,One,Zero,2557,MOD1:Coil2557:Read
+1157,xx,CoilBlank2558,One,Zero,2558,MOD1:Coil2558:Read
+1158,xx,CoilBlank2559,One,Zero,2559,MOD1:Coil2559:Read
+1159,xx,CoilBlank2560,One,Zero,2560,MOD1:Coil2560:Read
+1160,xx,CoilBlank2561,One,Zero,2561,MOD1:Coil2561:Read
+1161,xx,CoilBlank2562,One,Zero,2562,MOD1:Coil2562:Read
+1162,xx,CoilBlank2563,One,Zero,2563,MOD1:Coil2563:Read
+1163,xx,CoilBlank2564,One,Zero,2564,MOD1:Coil2564:Read
+1164,xx,CoilBlank2565,One,Zero,2565,MOD1:Coil2565:Read
+1165,xx,CoilBlank2566,One,Zero,2566,MOD1:Coil2566:Read
+1166,xx,CoilBlank2567,One,Zero,2567,MOD1:Coil2567:Read
+1167,xx,CoilBlank2568,One,Zero,2568,MOD1:Coil2568:Read
+1168,xx,CoilBlank2569,One,Zero,2569,MOD1:Coil2569:Read
+1169,xx,CoilBlank2570,One,Zero,2570,MOD1:Coil2570:Read
+1170,xx,CoilBlank2571,One,Zero,2571,MOD1:Coil2571:Read
+1171,xx,CoilBlank2572,One,Zero,2572,MOD1:Coil2572:Read
+1172,xx,CoilBlank2573,One,Zero,2573,MOD1:Coil2573:Read
+1173,xx,CoilBlank2574,One,Zero,2574,MOD1:Coil2574:Read
+1174,xx,CoilBlank2575,One,Zero,2575,MOD1:Coil2575:Read
+1175,xx,CoilBlank2576,One,Zero,2576,MOD1:Coil2576:Read
+1176,xx,CoilBlank2577,One,Zero,2577,MOD1:Coil2577:Read
+1177,xx,CoilBlank2578,One,Zero,2578,MOD1:Coil2578:Read
+1178,xx,CoilBlank2579,One,Zero,2579,MOD1:Coil2579:Read
+1179,xx,CoilBlank2580,One,Zero,2580,MOD1:Coil2580:Read
+1180,xx,CoilBlank2581,One,Zero,2581,MOD1:Coil2581:Read
+1181,xx,CoilBlank2582,One,Zero,2582,MOD1:Coil2582:Read
+1182,xx,CoilBlank2583,One,Zero,2583,MOD1:Coil2583:Read
+1183,xx,CoilBlank2584,One,Zero,2584,MOD1:Coil2584:Read
+1184,xx,CoilBlank2585,One,Zero,2585,MOD1:Coil2585:Read
+1185,xx,CoilBlank2586,One,Zero,2586,MOD1:Coil2586:Read
+1186,xx,CoilBlank2587,One,Zero,2587,MOD1:Coil2587:Read
+1187,xx,CoilBlank2588,One,Zero,2588,MOD1:Coil2588:Read
+1188,xx,CoilBlank2589,One,Zero,2589,MOD1:Coil2589:Read
+1189,xx,CoilBlank2590,One,Zero,2590,MOD1:Coil2590:Read
+1190,xx,CoilBlank2591,One,Zero,2591,MOD1:Coil2591:Read
+1191,xx,CoilBlank2592,One,Zero,2592,MOD1:Coil2592:Read
+1192,xx,CoilBlank2593,One,Zero,2593,MOD1:Coil2593:Read
+1193,xx,CoilBlank2594,One,Zero,2594,MOD1:Coil2594:Read
+1194,xx,CoilBlank2595,One,Zero,2595,MOD1:Coil2595:Read
+1195,xx,CoilBlank2596,One,Zero,2596,MOD1:Coil2596:Read
+1196,xx,CoilBlank2597,One,Zero,2597,MOD1:Coil2597:Read
+1197,xx,CoilBlank2598,One,Zero,2598,MOD1:Coil2598:Read
+1198,xx,CoilBlank2599,One,Zero,2599,MOD1:Coil2599:Read
+1199,xx,CoilBlank2600,One,Zero,2600,MOD1:Coil2600:Read
+1200,xx,CoilBlank2601,One,Zero,2601,MOD1:Coil2601:Read
+1201,xx,CoilBlank2602,One,Zero,2602,MOD1:Coil2602:Read
+1202,xx,CoilBlank2603,One,Zero,2603,MOD1:Coil2603:Read
+1203,xx,CoilBlank2604,One,Zero,2604,MOD1:Coil2604:Read
+1204,xx,CoilBlank2605,One,Zero,2605,MOD1:Coil2605:Read
+1205,xx,CoilBlank2606,One,Zero,2606,MOD1:Coil2606:Read
+1206,xx,CoilBlank2607,One,Zero,2607,MOD1:Coil2607:Read
+1207,xx,CoilBlank2608,One,Zero,2608,MOD1:Coil2608:Read
+1208,xx,CoilBlank2609,One,Zero,2609,MOD1:Coil2609:Read
+1209,xx,CoilBlank2610,One,Zero,2610,MOD1:Coil2610:Read
+1210,xx,CoilBlank2611,One,Zero,2611,MOD1:Coil2611:Read
+1211,xx,CoilBlank2612,One,Zero,2612,MOD1:Coil2612:Read
+1212,xx,CoilBlank2613,One,Zero,2613,MOD1:Coil2613:Read
+1213,xx,CoilBlank2614,One,Zero,2614,MOD1:Coil2614:Read
+1214,xx,CoilBlank2615,One,Zero,2615,MOD1:Coil2615:Read
+1215,xx,CoilBlank2616,One,Zero,2616,MOD1:Coil2616:Read
+1216,xx,CoilBlank2617,One,Zero,2617,MOD1:Coil2617:Read
+1217,xx,CoilBlank2618,One,Zero,2618,MOD1:Coil2618:Read
+1218,xx,CoilBlank2619,One,Zero,2619,MOD1:Coil2619:Read
+1219,xx,CoilBlank2620,One,Zero,2620,MOD1:Coil2620:Read
+1220,xx,CoilBlank2621,One,Zero,2621,MOD1:Coil2621:Read
+1221,xx,CoilBlank2622,One,Zero,2622,MOD1:Coil2622:Read
+1222,xx,CoilBlank2623,One,Zero,2623,MOD1:Coil2623:Read
+1223,xx,CoilBlank2624,One,Zero,2624,MOD1:Coil2624:Read
+1224,xx,CoilBlank2625,One,Zero,2625,MOD1:Coil2625:Read
+1225,xx,CoilBlank2626,One,Zero,2626,MOD1:Coil2626:Read
+1226,xx,CoilBlank2627,One,Zero,2627,MOD1:Coil2627:Read
+1227,xx,CoilBlank2628,One,Zero,2628,MOD1:Coil2628:Read
+1228,xx,CoilBlank2629,One,Zero,2629,MOD1:Coil2629:Read
+1229,xx,CoilBlank2630,One,Zero,2630,MOD1:Coil2630:Read
+1230,xx,CoilBlank2631,One,Zero,2631,MOD1:Coil2631:Read
+1231,xx,CoilBlank2632,One,Zero,2632,MOD1:Coil2632:Read
+1232,xx,CoilBlank2633,One,Zero,2633,MOD1:Coil2633:Read
+1233,xx,CoilBlank2634,One,Zero,2634,MOD1:Coil2634:Read
+1234,xx,CoilBlank2635,One,Zero,2635,MOD1:Coil2635:Read
+1235,xx,CoilBlank2636,One,Zero,2636,MOD1:Coil2636:Read
+1236,xx,CoilBlank2637,One,Zero,2637,MOD1:Coil2637:Read
+1237,xx,CoilBlank2638,One,Zero,2638,MOD1:Coil2638:Read
+1238,xx,CoilBlank2639,One,Zero,2639,MOD1:Coil2639:Read
+1239,xx,CoilBlank2640,One,Zero,2640,MOD1:Coil2640:Read
+1240,xx,CoilBlank2641,One,Zero,2641,MOD1:Coil2641:Read
+1241,xx,CoilBlank2642,One,Zero,2642,MOD1:Coil2642:Read
+1242,xx,CoilBlank2643,One,Zero,2643,MOD1:Coil2643:Read
+1243,xx,CoilBlank2644,One,Zero,2644,MOD1:Coil2644:Read
+1244,xx,CoilBlank2645,One,Zero,2645,MOD1:Coil2645:Read
+1245,xx,CoilBlank2646,One,Zero,2646,MOD1:Coil2646:Read
+1246,xx,CoilBlank2647,One,Zero,2647,MOD1:Coil2647:Read
+1247,xx,CoilBlank2648,One,Zero,2648,MOD1:Coil2648:Read
+1248,xx,CoilBlank2649,One,Zero,2649,MOD1:Coil2649:Read
+1249,xx,CoilBlank2650,One,Zero,2650,MOD1:Coil2650:Read
+1250,xx,CoilBlank2651,One,Zero,2651,MOD1:Coil2651:Read
+1251,xx,CoilBlank2652,One,Zero,2652,MOD1:Coil2652:Read
+1252,xx,CoilBlank2653,One,Zero,2653,MOD1:Coil2653:Read
+1253,xx,CoilBlank2654,One,Zero,2654,MOD1:Coil2654:Read
+1254,xx,CoilBlank2655,One,Zero,2655,MOD1:Coil2655:Read
+1255,xx,CoilBlank2656,One,Zero,2656,MOD1:Coil2656:Read
+1256,xx,CoilBlank2657,One,Zero,2657,MOD1:Coil2657:Read
+1257,xx,CoilBlank2658,One,Zero,2658,MOD1:Coil2658:Read
+1258,xx,CoilBlank2659,One,Zero,2659,MOD1:Coil2659:Read
+1259,xx,CoilBlank2660,One,Zero,2660,MOD1:Coil2660:Read
+1260,xx,CoilBlank2661,One,Zero,2661,MOD1:Coil2661:Read
+1261,xx,CoilBlank2662,One,Zero,2662,MOD1:Coil2662:Read
+1262,xx,CoilBlank2663,One,Zero,2663,MOD1:Coil2663:Read
+1263,xx,CoilBlank2664,One,Zero,2664,MOD1:Coil2664:Read
+1264,xx,CoilBlank2665,One,Zero,2665,MOD1:Coil2665:Read
+1265,xx,CoilBlank2666,One,Zero,2666,MOD1:Coil2666:Read
+1266,xx,CoilBlank2667,One,Zero,2667,MOD1:Coil2667:Read
+1267,xx,CoilBlank2668,One,Zero,2668,MOD1:Coil2668:Read
+1268,xx,CoilBlank2669,One,Zero,2669,MOD1:Coil2669:Read
+1269,xx,CoilBlank2670,One,Zero,2670,MOD1:Coil2670:Read
+1270,xx,CoilBlank2671,One,Zero,2671,MOD1:Coil2671:Read
+1271,xx,CoilBlank2672,One,Zero,2672,MOD1:Coil2672:Read
+1272,xx,CoilBlank2673,One,Zero,2673,MOD1:Coil2673:Read
+1273,xx,CoilBlank2674,One,Zero,2674,MOD1:Coil2674:Read
+1274,xx,CoilBlank2675,One,Zero,2675,MOD1:Coil2675:Read
+1275,xx,CoilBlank2676,One,Zero,2676,MOD1:Coil2676:Read
+1276,xx,CoilBlank2677,One,Zero,2677,MOD1:Coil2677:Read
+1277,xx,CoilBlank2678,One,Zero,2678,MOD1:Coil2678:Read
+1278,xx,CoilBlank2679,One,Zero,2679,MOD1:Coil2679:Read
+1279,xx,CoilBlank2680,One,Zero,2680,MOD1:Coil2680:Read
+1280,xx,CoilBlank2681,One,Zero,2681,MOD1:Coil2681:Read
+1281,xx,CoilBlank2682,One,Zero,2682,MOD1:Coil2682:Read
+1282,xx,CoilBlank2683,One,Zero,2683,MOD1:Coil2683:Read
+1283,xx,CoilBlank2684,One,Zero,2684,MOD1:Coil2684:Read
+1284,xx,CoilBlank2685,One,Zero,2685,MOD1:Coil2685:Read
+1285,xx,CoilBlank2686,One,Zero,2686,MOD1:Coil2686:Read
+1286,xx,CoilBlank2687,One,Zero,2687,MOD1:Coil2687:Read
+1287,xx,CoilBlank2688,One,Zero,2688,MOD1:Coil2688:Read
+1288,xx,CoilBlank2689,One,Zero,2689,MOD1:Coil2689:Read
+1289,xx,CoilBlank2690,One,Zero,2690,MOD1:Coil2690:Read
+1290,xx,CoilBlank2691,One,Zero,2691,MOD1:Coil2691:Read
+1291,xx,CoilBlank2692,One,Zero,2692,MOD1:Coil2692:Read
+1292,xx,CoilBlank2693,One,Zero,2693,MOD1:Coil2693:Read
+1293,xx,CoilBlank2694,One,Zero,2694,MOD1:Coil2694:Read
+1294,xx,CoilBlank2695,One,Zero,2695,MOD1:Coil2695:Read
+1295,xx,CoilBlank2696,One,Zero,2696,MOD1:Coil2696:Read
+1296,xx,CoilBlank2697,One,Zero,2697,MOD1:Coil2697:Read
+1297,xx,CoilBlank2698,One,Zero,2698,MOD1:Coil2698:Read
+1298,xx,CoilBlank2699,One,Zero,2699,MOD1:Coil2699:Read
+1299,xx,CoilBlank2700,One,Zero,2700,MOD1:Coil2700:Read
+1300,xx,CoilBlank2701,One,Zero,2701,MOD1:Coil2701:Read
+1301,xx,CoilBlank2702,One,Zero,2702,MOD1:Coil2702:Read
+1302,xx,CoilBlank2703,One,Zero,2703,MOD1:Coil2703:Read
+1303,xx,CoilBlank2704,One,Zero,2704,MOD1:Coil2704:Read
+1304,xx,CoilBlank2705,One,Zero,2705,MOD1:Coil2705:Read
+1305,xx,CoilBlank2706,One,Zero,2706,MOD1:Coil2706:Read
+1306,xx,CoilBlank2707,One,Zero,2707,MOD1:Coil2707:Read
+1307,xx,CoilBlank2708,One,Zero,2708,MOD1:Coil2708:Read
+1308,xx,CoilBlank2709,One,Zero,2709,MOD1:Coil2709:Read
+1309,xx,CoilBlank2710,One,Zero,2710,MOD1:Coil2710:Read
+1310,xx,CoilBlank2711,One,Zero,2711,MOD1:Coil2711:Read
+1311,xx,CoilBlank2712,One,Zero,2712,MOD1:Coil2712:Read
+1312,xx,CoilBlank2713,One,Zero,2713,MOD1:Coil2713:Read
+1313,xx,CoilBlank2714,One,Zero,2714,MOD1:Coil2714:Read
+1314,xx,CoilBlank2715,One,Zero,2715,MOD1:Coil2715:Read
+1315,xx,CoilBlank2716,One,Zero,2716,MOD1:Coil2716:Read
+1316,xx,CoilBlank2717,One,Zero,2717,MOD1:Coil2717:Read
+1317,xx,CoilBlank2718,One,Zero,2718,MOD1:Coil2718:Read
+1318,xx,CoilBlank2719,One,Zero,2719,MOD1:Coil2719:Read
+1319,xx,CoilBlank2720,One,Zero,2720,MOD1:Coil2720:Read
+1320,xx,CoilBlank2721,One,Zero,2721,MOD1:Coil2721:Read
+1321,xx,CoilBlank2722,One,Zero,2722,MOD1:Coil2722:Read
+1322,xx,CoilBlank2723,One,Zero,2723,MOD1:Coil2723:Read
+1323,xx,CoilBlank2724,One,Zero,2724,MOD1:Coil2724:Read
+1324,xx,CoilBlank2725,One,Zero,2725,MOD1:Coil2725:Read
+1325,xx,CoilBlank2726,One,Zero,2726,MOD1:Coil2726:Read
+1326,xx,CoilBlank2727,One,Zero,2727,MOD1:Coil2727:Read
+1327,xx,CoilBlank2728,One,Zero,2728,MOD1:Coil2728:Read
+1328,xx,CoilBlank2729,One,Zero,2729,MOD1:Coil2729:Read
+1329,xx,CoilBlank2730,One,Zero,2730,MOD1:Coil2730:Read
+1330,xx,CoilBlank2731,One,Zero,2731,MOD1:Coil2731:Read
+1331,xx,CoilBlank2732,One,Zero,2732,MOD1:Coil2732:Read
+1332,xx,CoilBlank2733,One,Zero,2733,MOD1:Coil2733:Read
+1333,xx,CoilBlank2734,One,Zero,2734,MOD1:Coil2734:Read
+1334,xx,CoilBlank2735,One,Zero,2735,MOD1:Coil2735:Read
+1335,xx,CoilBlank2736,One,Zero,2736,MOD1:Coil2736:Read
+1336,xx,CoilBlank2737,One,Zero,2737,MOD1:Coil2737:Read
+1337,xx,CoilBlank2738,One,Zero,2738,MOD1:Coil2738:Read
+1338,xx,CoilBlank2739,One,Zero,2739,MOD1:Coil2739:Read
+1339,xx,CoilBlank2740,One,Zero,2740,MOD1:Coil2740:Read
+1340,xx,CoilBlank2741,One,Zero,2741,MOD1:Coil2741:Read
+1341,xx,CoilBlank2742,One,Zero,2742,MOD1:Coil2742:Read
+1342,xx,CoilBlank2743,One,Zero,2743,MOD1:Coil2743:Read
+1343,xx,CoilBlank2744,One,Zero,2744,MOD1:Coil2744:Read
+1344,xx,CoilBlank2745,One,Zero,2745,MOD1:Coil2745:Read
+1345,xx,CoilBlank2746,One,Zero,2746,MOD1:Coil2746:Read
+1346,xx,CoilBlank2747,One,Zero,2747,MOD1:Coil2747:Read
+1347,xx,CoilBlank2748,One,Zero,2748,MOD1:Coil2748:Read
+1348,"DMC HEARTBEAT OK",Iso:DMC:HeartbeatOK:Status,One,Zero,2749,MOD1:Coil2749:Read
+1349,"TMC HEARTBEAT OK",Iso:TMC:HeartbeatOK:Status,One,Zero,2750,MOD1:Coil2750:Read
+1350,"LCC HEARTBEAT OK",Iso:LCC:HeartbeatOK:Status,One,Zero,2751,MOD1:Coil2751:Read
+1351,"MOD2 HEARTBEAT OK",Iso:MOD2:HeartbeatOK:Status,One,Zero,2752,MOD1:Coil2752:Read
+1352,"Therapy A Watchdog Control",CYC:TherapyAWatchdog:Control,One,Zero,2753,MOD1:Coil2753:Read
+1353,"Therapy Sum Interlock A Control",CYC:TherapySumIntlkA:Control,One,Zero,2754,MOD1:Coil2754:Read
+1354,"DMC PROCESS HEARTBEAT",Iso:DMC:Heartbeat:Write,One,Zero,2755,MOD1:Coil2755:Read
+1355,"TMC PROCESS HEARTBEAT",Iso:TMC:Heartbeat:Write,One,Zero,2756,MOD1:Coil2756:Read
+1356,"LCC PROCESS HEARTBEAT",Iso:LCC:Heartbeat:Write,One,Zero,2757,MOD1:Coil2757:Read
+1357,"MOD2 PROCESS HEARTBEAT",Iso:MOD2:Heartbeat:Write,One,Zero,2758,MOD1:Coil2758:Read
+1358,xx,CoilBlank2759,One,Zero,2759,MOD1:Coil2759:Read
+1359,xx,CoilBlank2760,One,Zero,2760,MOD1:Coil2760:Read
+1360,"Therapy B Watchdog Control",CYC:TherapyBWatchdog:Control,One,Zero,2761,MOD1:Coil2761:Read
+1361,"Therapy Sum Interlock B Control",CYC:TherapySumIntlkB:Control,One,Zero,2762,MOD1:Coil2762:Read
+1362,xx,CoilBlank2763,One,Zero,2763,MOD1:Coil2763:Read
+1363,xx,CoilBlank2764,One,Zero,2764,MOD1:Coil2764:Read
+1364,xx,CoilBlank2765,One,Zero,2765,MOD1:Coil2765:Read
+1365,xx,CoilBlank2766,One,Zero,2766,MOD1:Coil2766:Read
+1366,xx,CoilBlank2767,One,Zero,2767,MOD1:Coil2767:Read
+1367,xx,CoilBlank2768,One,Zero,2768,MOD1:Coil2768:Read

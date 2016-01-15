@@ -1,0 +1,164 @@
+@@@ Restarting child "./st.cmd"
+@@@ The PID of new child "./st.cmd" is: 692
+@@@ @@@ @@@ @@@ @@@
+#!../../bin/linux-x86/MasterBumpless314
+## You may have to change alias to something else
+## everywhere it appears in this file
+## IOC for testing the aliasing ability for the latest EPICS release
+< envPaths
+epicsEnvSet("ARCH","linux-x86")
+epicsEnvSet("IOC","iocMasterBumpless314")
+epicsEnvSet("TOP","/usr/local/cnts/epics-3.14.11/operations/opIOC")
+epicsEnvSet("SNCSEQ","/usr/local/cnts/epics-3.14.12/support/seq-2-0-12")
+epicsEnvSet("SCAN","/usr/local/cnts/epics-3.14.12/support/sscan-2-6-6")
+epicsEnvSet("ASYN","/usr/local/cnts/epics-3.14.12/support/asyn-4-17")
+epicsEnvSet("CALC","/usr/local/cnts/epics-3.14.12/support/calc-2-8")
+epicsEnvSet("STREAMDEVICE","/usr/local/cnts/epics-3.14.12/support/stream-2-5/")
+epicsEnvSet("MODBUS","/usr/local/cnts/epics-3.14.12/support/modbus-2-2/")
+epicsEnvSet("AUTOSAVE","/usr/local/cnts/epics-3.14.12/support/autosave-4-7/")
+epicsEnvSet("EPICS_BASE","/usr/local/cnts/epics-3.14.12/base-3.14.12")
+## Register all support components
+dbLoadDatabase("../../dbd/MasterBumpless314.dbd")
+MasterBumpless314_registerRecordDeviceDriver(pdbbase)
+#drvAsynIPPortConfigure(const char *portName, const char *hostInfo,
+#                           unsigned int priority, int noAutoConnect,
+#                           int noProcessEos);
+drvAsynIPPortConfigure("ModInputread", "192.168.0.9:502", 0,1,1)
+drvAsynIPPortConfigure("ModCoilread00", "192.168.0.9:502", 0,1,1)
+drvAsynIPPortConfigure("ModCoilread01", "192.168.0.9:502", 0,1,1)
+# modbus-2-2 args: portName, linkType, timeoutMsec, writedelayMsec 
+# no slaveAddress arg, writedelayMsec only used for serial RTU devices
+modbusInterposeConfig("ModInputread", 0, 1000)
+modbusInterposeConfig("ModCoilread00", 0, 1000)
+modbusInterposeConfig("ModCoilread01", 0, 1000)
+# NOTE: We use octal numbers for the start address and length (leading zeros)
+#       to be consistent with the PLC nomenclature.  This is optional, decimal
+#       numbers (no leading zero) or hex numbers can also be used.
+# modbus-2-2 args: portName, tcpPortName, slaveAddress, modbusFunction, 
+#                    modbusStartAddress, ModbusLength, datatype, pollMsec, plcType
+# Read 1016 Inputs.  Function code=2.
+drvModbusAsynConfigure("In_Input00",   "ModInputread", 1, 2,  0, 1016,    0,  100, "Modicon")
+# Read 1400 coils in port 00
+drvModbusAsynConfigure("In_Coil00",   "ModCoilread00", 1, 1,  0, 1400,    0,  100, "Modicon")
+# Read then next 1383 coil in port 01
+drvModbusAsynConfigure("In_Coil01",   "ModCoilread01", 1, 1,  1400, 1385,    0,  100, "Modicon")
+2013/08/17 14:16:05.549 drvModbusAsyn::doModbusIO port In_Input00 is disconnected
+# Adding Modicon Writes 21apr2009 ddr
+# Use the following commands for TCP/IP
+#drvAsynIPPortConfigure(const char *portName,
+#                       const char *hostInfo,
+#                       unsigned int priority,
+#                       int noAutoConnect,
+#                       int noProcessEos);
+drvAsynIPPortConfigure("MasterControlwrite", "192.168.0.9:502", 0,1,1)
+2013/08/17 14:16:05.550 drvModbusAsyn::doModbusIO port In_Coil00 is disconnected
+# modbus 2-2 args without slaveAddress
+#modbusInterposeConfig(portName, linkType, timeoutMsec, writeDelayMsec)
+# linkType 0 for TCP/IP
+2013/08/17 14:16:05.550 drvModbusAsyn::doModbusIO port In_Coil01 is disconnected
+#  writeDelayMsec only meaningful for serial RTU devices
+modbusInterposeConfig("MasterControlwrite", 0, 1000)
+# NOTE: We use octal numbers for the start address and length (leading zeros)
+#       to be consistent with the PLC nomenclature.  This is optional, decimal
+#       numbers (no leading zero) or hex numbers can also be used.
+# Write 281 bits in 1 command, starting at address 2784.
+# Function code = 15.
+# 2-2 args with slaveAddress 
+drvModbusAsynConfigure("MasterControlOut_Word", "MasterControlwrite", 9, 15, 2784, 281,    0,  1,  "Modicon")
+2013/08/17 14:16:05.550 drvModbusAsyn::doModbusIO port MasterControlOut_Word is disconnected
+# Set up paths for bumpless reboot
+#set_requestfile_path("/home/operations/opIOC/iocBoot/iocMasterBumpless314/autosaverequests")
+#set_savefile_path("/home/operations/opIOC/iocBoot/iocMasterBumpless314/autosavefiles")
+set_requestfile_path("autosaverequests")
+set_savefile_path("autosavefiles")
+#Load Templates for Modicon Reads
+dbLoadTemplate("read1400coilsAlias.substitutions")
+dbLoadTemplate("read1383coilsAlias.substitutions")
+dbLoadTemplate("read1016inputsAlias.substitutions")
+#Load Templates for Modicon Writes
+dbLoadTemplate("MasterControlOutAlias.substitutions")
+#Load Record instances - NOT! This is the old genSub record
+#dbLoadRecords("../../db/modWordWrite.db", "P=MOD1")
+#Load calc records to prepare Modicon Writes - replaces genSub
+dbLoadRecords("../../db/mod1_calc_outputs.db")
+# Load IOC Heartbeat database
+dbLoadRecords("../../db/IocHeartbeat.vdb", "SubSys=Master")
+# now required in version 4.5
+set_pass0_restoreFile(auto_positions.sav)
+set_pass1_restoreFile(auto_settings.sav)
+iocInit()
+Starting iocInit
+############################################################################
+## EPICS R3.14.12 $Date: Wed 2010-11-24 14:50:38 -0600$
+## EPICS Base built Jan 20 2011
+############################################################################
+drvStreamInit: Warning! STREAM_PROTOCOL_PATH not set. Defaults to "."
+reboot_restore: entry for file 'auto_positions.sav'
+reboot_restore (v4.12): entry for file 'auto_positions.sav'
+reboot_restore: Found filename 'auto_positions.sav' in restoreFileList.
+*** restoring from 'autosavefiles/auto_positions.sav' at initHookState 6 (before record/device init) ***
+reboot_restore: done with file 'auto_positions.sav'
+
+reboot_restore: entry for file 'auto_settings.sav'
+reboot_restore (v4.12): entry for file 'auto_settings.sav'
+reboot_restore: Found filename 'auto_settings.sav' in restoreFileList.
+*** restoring from 'autosavefiles/auto_settings.sav' at initHookState 7 (after record/device init) ***
+reboot_restore: done with file 'auto_settings.sav'
+
+iocRun: All initialization complete
+# save positions every five seconds
+create_monitor_set("auto_positions.req",5)
+#save settings every 10 minutes
+create_monitor_set("auto_settings.req",600)
+epics> 2013/08/19 07:46:48.685 drvModbusAsyn::doModbusIO port In_Input00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/19 07:46:48.787 drvModbusAsyn::doModbusIO port In_Input00 has I/O error
+2013/08/19 14:26:48.952 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/19 14:26:49.055 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/20 14:26:51.456 drvModbusAsyn::doModbusIO port In_Coil01 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/20 14:26:51.559 drvModbusAsyn::doModbusIO port In_Coil01 has I/O error
+2013/08/20 17:06:51.414 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/20 17:06:51.517 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/20 19:06:51.770 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/20 19:06:51.873 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/22 08:06:56.236 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/22 08:06:56.339 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/22 23:46:57.035 drvModbusAsyn::doModbusIO port In_Coil01 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/22 23:46:57.138 drvModbusAsyn::doModbusIO port In_Coil01 has I/O error
+2013/08/23 11:04:37.925 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/23 11:04:38.028 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/23 20:24:39.153 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/23 20:24:39.256 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/24 12:24:40.421 drvModbusAsyn::doModbusIO port In_Input00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/24 12:24:40.523 drvModbusAsyn::doModbusIO port In_Input00 has I/O error
+2013/08/24 21:44:41.143 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/24 21:44:41.246 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/26 17:13:56.781 drvModbusAsyn::doModbusIO port In_Coil01 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/26 17:13:56.884 drvModbusAsyn::doModbusIO port In_Coil01 has I/O error
+2013/08/27 07:53:58.662 drvModbusAsyn::doModbusIO port In_Input00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/27 07:53:58.764 drvModbusAsyn::doModbusIO port In_Input00 has I/O error
+2013/08/27 13:53:58.911 drvModbusAsyn::doModbusIO port In_Input00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/27 13:53:59.013 drvModbusAsyn::doModbusIO port In_Input00 has I/O error
+2013/08/27 20:13:59.902 drvModbusAsyn::doModbusIO port In_Coil01 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/27 20:14:00.005 drvModbusAsyn::doModbusIO port In_Coil01 has I/O error
+2013/08/31 04:01:12.438 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/31 04:01:12.541 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/08/31 12:21:13.906 drvModbusAsyn::doModbusIO port In_Input00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/08/31 12:21:14.008 drvModbusAsyn::doModbusIO port In_Input00 has I/O error
+2013/09/02 00:01:17.091 drvModbusAsyn::doModbusIO port In_Input00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/02 00:01:17.193 drvModbusAsyn::doModbusIO port In_Input00 has I/O error
+2013/09/06 12:52:22.011 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/06 12:52:22.114 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/09/06 19:52:22.456 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/06 19:52:22.559 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/09/08 02:32:25.552 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/08 02:32:25.655 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/09/08 08:12:26.149 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/08 08:12:26.252 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/09/09 06:52:28.665 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/09 06:52:28.768 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error
+2013/09/09 18:47:55.840 drvModbusAsyn::doModbusIO port In_Coil01 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/09 18:47:55.943 drvModbusAsyn::doModbusIO port In_Coil01 has I/O error
+2013/09/10 03:07:56.770 drvModbusAsyn::doModbusIO port In_Input00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/10 03:07:56.872 drvModbusAsyn::doModbusIO port In_Input00 has I/O error
+2013/09/11 12:47:59.839 drvModbusAsyn::doModbusIO port In_Coil00 error calling writeRead, error=192.168.0.9:502 timeout: Resource temporarily unavailable, nwrite=6/6, nread=0
+2013/09/11 12:47:59.942 drvModbusAsyn::doModbusIO port In_Coil00 has I/O error

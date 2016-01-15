@@ -1,0 +1,7 @@
+# bo record template for Master Control bo's
+record(bo,"$(P)") {
+    field(ZNAM,"$(ZNAM)")
+    field(ONAM,"$(ONAM)")
+    field(DESC,"$(DESC)")
+    alias($(ALIAS))
+}
